@@ -1,0 +1,3203 @@
+Package: apt-fast
+Version: 1.9.5-2-spark
+Architecture: all
+Maintainer: Dominique Lasserre <lasserre.d@gmail.com>
+Installed-Size: 138
+Depends: debconf (>= 0.5) | debconf-2.0, aria2
+Suggests: aptitude
+Filename: ./apt-fast/apt-fast_1.9.5-2-spark_all.deb
+Size: 36268
+MD5sum: 8ce9c6ff87ab5a979bb3232c1eccdc08
+SHA1: 15677ecdc7f9c622259ef17b3f9416165e90683b
+SHA256: 5a6c10f0e29c489a75ec40ee26f7074dc6bc77a192decee6ca19f67f65be7158
+Section: admin
+Priority: optional
+Homepage: https://github.com/ilikenwf/apt-fast.git
+Description: shellscript wrapper for apt-get or aptitude
+ apt-fast is a shellscript wrapper for apt-get that can drastically improve apt
+ download times by downloading packages in parallel, with multiple connections
+ per package.
+
+Package: aria2
+Version: 1.34.0-4~winerunner
+Architecture: amd64
+Maintainer: Patrick Ruckstuhl <patrick@ch.tario.org>
+Installed-Size: 1848
+Depends: libaria2-0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1)
+Recommends: ca-certificates
+Filename: ./aria2/aria2_1.34.0-4~winerunner_amd64.deb
+Size: 362052
+MD5sum: 54c13e34d9231e4ac60f401972e1bdaa
+SHA1: da2e259e7c05c053a8c9df5d1255b87c6991093e
+SHA256: 32dc99f975255507400143817715a618a1dd3b2ebbe138d01b7b3a1f5319774d
+Section: net
+Priority: optional
+Homepage: https://aria2.github.io/
+Description: High speed download utility
+ Aria2 is a command line download client with resuming and
+ segmented downloading. Supported protocols are HTTP/HTTPS/
+ SFTP/FTP/BitTorrent and it also supports Metalink.
+
+Package: blt
+Version: 2.5.3+dfsg-4
+Architecture: amd64
+Maintainer: Sergei Golovan <sgolovan@debian.org>
+Installed-Size: 30
+Depends: tk8.6-blt2.5 (= 2.5.3+dfsg-4)
+Suggests: blt-demo
+Breaks: python-tk (<< 2.7.8-1~), python3-tk (<< 3.4.1-3~), skycat (<< 3.1.2+starlink1~b-7~), tclspice (<< 26-1~), tkdesk (<< 2.0-9.2~)
+Filename: ./blt/blt_2.5.3+dfsg-4_amd64.deb
+Size: 14792
+MD5sum: 749251c2a3636b905ea83fe4a0148d72
+SHA1: cea6b4deef76dc6d933270a6c5209fb4ec6f1fec
+SHA256: 624e1c02bc1e72fa77523f514a606b7b7da3399def37995d016955b8d950584b
+Section: libs
+Priority: optional
+Homepage: http://blt.sourceforge.net/
+Description: graphics extension library for Tcl/Tk - run-time
+ BLT is a library of useful extensions for the Tcl language and the
+ popular Tk graphical toolkit.  It adds a vector and tree data type,
+ background execution and some debugging tools to Tcl, and provides
+ several new widgets for Tk, including graphs, bar-charts, trees, tabs,
+ splines and hyper-links, as well as a new geometry manager, drag &
+ drop support, and more.
+ .
+ This package is a dummy package which depends on the current BLT
+ library.
+
+Package: blt
+Version: 2.5.3+dfsg-4~winerunner
+Architecture: amd64
+Maintainer: Sergei Golovan <sgolovan@debian.org>
+Installed-Size: 30
+Depends: tk8.6-blt2.5 (= 2.5.3+dfsg-4)
+Suggests: blt-demo
+Breaks: python-tk (<< 2.7.8-1~), python3-tk (<< 3.4.1-3~), skycat (<< 3.1.2+starlink1~b-7~), tclspice (<< 26-1~), tkdesk (<< 2.0-9.2~)
+Filename: ./blt/blt_2.5.3+dfsg-4~winerunner_amd64.deb
+Size: 14824
+MD5sum: d2daf2d1655847686fd895596bb05dcd
+SHA1: 38c0654050eed5c8b98500c9c66e824fa95a3f6d
+SHA256: e304255101bfc7d8ed1f22a8253d15789927a5178642ddd8b855102007794ecd
+Section: libs
+Priority: optional
+Homepage: http://blt.sourceforge.net/
+Description: graphics extension library for Tcl/Tk - run-time
+ BLT is a library of useful extensions for the Tcl language and the
+ popular Tk graphical toolkit.  It adds a vector and tree data type,
+ background execution and some debugging tools to Tcl, and provides
+ several new widgets for Tk, including graphs, bar-charts, trees, tabs,
+ splines and hyper-links, as well as a new geometry manager, drag &
+ drop support, and more.
+ .
+ This package is a dummy package which depends on the current BLT
+ library.
+
+Package: com.deepin.license.spark
+Version: 1.0.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: python3, python3-dbus
+Conflicts: deepin-license-activator
+Filename: ./com.deepin.license.spark/com.deepin.license.spark_1.0.0_all.deb
+Size: 1516
+MD5sum: 118e834bcff7b464c89995ca0a7eee3f
+SHA1: abac004a0b6e2c33a4f1ac51835c7964bb7250af
+SHA256: c218258990514a011ae1a6cd1dbfae36e2d2bb3915bb7122094064da68eb8505
+Priority: optional
+Description: 模拟 UOS 激活
+
+Package: com.deepin.license.spark
+Version: 1.0.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: python3, python3-pydbus
+Conflicts: deepin-license-activator
+Filename: ./com.deepin.license.spark/com.deepin.license.spark_1.0.2_all.deb
+Size: 1524
+MD5sum: 2293f56b45f1bd5692adf8730313e000
+SHA1: a4f3c1e14f29a9c23abd044478cd9236e7e374c3
+SHA256: 40ea8803e9e899950159c6e193f8eb93e33e8ba000137baa03ca6ea75124798d
+Priority: optional
+Description: 模拟 UOS 激活
+
+Package: com.gitee.markdown.spark
+Version: 1.0
+Architecture: amd64
+Maintainer: gfdgd xi<3025613752@qq.com>
+Filename: ./com.gitee.markdown.spark/com.gitee.markdown.spark_1.0.0_amd64.deb
+Size: 9316
+MD5sum: c4053921ef47850ba56f1d71b78ca799
+SHA1: 764ccd1464bcde966ae39318b85845c76992d7b4
+SHA256: 4442ea8f557d747bcc14d804c9037edec6afe27cb110b7b7a7492b7787d48c37
+Description: 一个基于 Qt 制作的一个 markdown 实时转换软件
+
+Package: com.gitee.uengine.runner.spark
+Source: spark-uengine-runner
+Version: 1.4.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, adb, python3-pil, python3-setuptools, uengine
+Conflicts: spark-uengine-runner, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.4.0_all.deb
+Size: 326056
+MD5sum: c9e56c158564ac41d3cd089576b6bf77
+SHA1: 6b8453bcc02c8b3a8bedb3ecdb5c96234f1f1e3d
+SHA256: a007153b18416bca3587922d679b032b7bd0f5cb7a6fce292d31c8ffa8513eba
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: uengine runner for deepin and UOS
+
+Package: com.gitee.uengine.runner.spark
+Source: spark-uengine-runner
+Version: 1.4.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, adb, python3-pil, python3-setuptools, uengine
+Conflicts: spark-uengine-runner, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.4.1_all.deb
+Size: 327916
+MD5sum: 2445b5814d901356085ab35415b12c0d
+SHA1: 8e6c23a6ac685c29631b46aa2071285a9fb4f97a
+SHA256: 09ace26d8ea2881615b6269c03f9a9510323d87f67514374903e49415107f231
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: uengine runner for deepin and UOS
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.4.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, adb, python3-pil, python3-setuptools, uengine, deepin-terminal
+Conflicts: spark-uengine-runner, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.4.2_all.deb
+Size: 330644
+MD5sum: af180eed88b588688a25f0665dc75dc8
+SHA1: 3952bbca0f53437210c25a2334e7ca68aadc99f8
+SHA256: 19a53478cbb675393de3a6f952ce112ec37a4aa80fea22394467ac2b2fbb28b3
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.5.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, adb, python3-pil, python3-setuptools, uengine, deepin-terminal
+Conflicts: spark-uengine-runner, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.5.0_all.deb
+Size: 332836
+MD5sum: 52d1cf7684600011b39606af70aa9e1a
+SHA1: e2522541889f336d91c8f9808bc3bea4a4435d41
+SHA256: 09c31c39c7dc2722540e0898676e01719c21189ff1a24be25d1f982b9f5b7864
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.5.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, uengine, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib
+Conflicts: spark-uengine-runner, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.5.1.deb
+Size: 338976
+MD5sum: df07cb5e34b29db85300aea928f9492f
+SHA1: 8fa0188b380bad0dbd6ab899967cf4581183502e
+SHA256: ee465f262130276394029e36a13af9bacfa4819c1e54f018d03d5bddc138956c
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.5.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, uengine, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib
+Conflicts: spark-uengine-runner, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.5.2_all.deb
+Size: 339788
+MD5sum: d57c27576e0adeedcaae4f0d3564337d
+SHA1: c68195d4f9acf25cb44eba5ad4635427a5fa2bfa
+SHA256: 9e63f3306b1aea2860b0a6dc3df50be92174aa78c3f56382569c1de2107468a1
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.5.3
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, uengine, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib
+Conflicts: spark-uengine-runner, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.5.3_all.deb
+Size: 339548
+MD5sum: cb8c0f88fdb81fbaafb2e969e55429b5
+SHA1: b9ad08242d4239aeb856e2696bc44add9005c045
+SHA256: 633bdd71ce649e2e3a2e0323ee6083f9d58c37c7b32cc2a6977470404bcbe18b
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.6.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, uengine, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib, fonts-noto-cjk, python3-numpy, python3-matplotlib, wget
+Conflicts: spark-uengine-runner, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.6.0_all.deb
+Size: 1277588
+MD5sum: 36b9e0345177c11df30c76976070ebe6
+SHA1: 8a34dcb5a58ca51850438edf06a2c74b9edb1784
+SHA256: 58334709b67a057d8f5575c0859bb3c069bf3d33bb5e7389704d3406d5c4a077
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.6.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, uengine, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib, fonts-noto-cjk, python3-numpy, python3-matplotlib, wget, inotify-tools, aria2
+Conflicts: spark-uengine-runner, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.6.1_all.deb
+Size: 1280936
+MD5sum: 9814f9c0aa48b758cd59b8c92dfa814e
+SHA1: 6ea14658dbbd3c3b4de5a1030167a8d5bac4db88
+SHA256: 4d40bd4968647b61cdae19fc5318890689c837e60c8b89707b100550e6ddd5ec
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.6.2-1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+Depends: python3, python3-tk, python3-pip, aapt, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib, fonts-noto-cjk, python3-numpy, python3-matplotlib, wget, inotify-tools, aria2
+Recommends: uengine, deepin-elf-verify (>= 0.0.16.7-1)
+Conflicts: spark-uengine-apk-builder
+Replaces: spark-uengine-runner, com.gitee.uengine.runner.spark.ubuntu
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.6.2_all.deb
+Size: 1293836
+MD5sum: 5c595a74dd49beec85e541c2d5e45ec0
+SHA1: a4f52c13560b398732d71da69db6e5db59fe76c7
+SHA256: 9fbfe9f755771d899b16c6ab633f7b509b666e18ea4469c31b1d38e42b9edfc4
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine 运行器，1.6.2 更新内容：
+ ※1、优化了 UEngine 运行器的英语翻译
+ ※2、新增加了可以打开或关闭第三方应用安装的功能（使用此功能后在UEngine里可以使用默认的APK安装程序安装应用，此操作需要使用程序的Adb补丁）
+ ※3、新增加了 UEngine 的 Ubuntu 安装程序
+ ※4、双包合一，只保留了UOS打包标准，可以从旧标准无缝升级（推荐使用本程序的升级程序进行升级）
+ 5、修复了本程序在 Ubuntu 上安装和卸载报错而无法继续的问题
+ 6、优化帮助/关于窗口在高分辨率电脑上显示不全的问题
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.7.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+Depends: python3, python3-tk, python3-pip, aapt, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib, fonts-noto-cjk, python3-numpy, python3-matplotlib, wget, inotify-tools, aria2
+Recommends: uengine, deepin-elf-verify (>= 0.0.16.7-1)
+Conflicts: spark-uengine-apk-builder, com.gitee.uengine.runner.spark.ubuntu
+Replaces: spark-uengine-runner, com.gitee.uengine.runner.spark.ubuntu
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.7.0_all.deb
+Size: 1294716
+MD5sum: eed1b3173111b93e0a0f3d9fe11bd453
+SHA1: 90f9ab06785e79331c959c1f366e7dbf89e24a9f
+SHA256: 583b542ec9ccdfbf90225ac947ecbef935aaa9a3de4f5f57044375661f87a0ea
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner, https://www.gitlink.org.cn/gfdgd_xi/uengine-runner]
+Description: UEngine 运行器，1.7.0 更新内容：
+ ※1、新增暗黑主题
+ ※2、优化 deepin-terminal 在其它发行版显示奇奇怪怪的问题
+ ※3、修复 UEngine 安装脚本在安装时不让用户选择，直接默认 N 无法安装的问题
+ 4、新增设置 UEngine 代理的功能
+ 5、将执行命令和打包器的返回输出从命令结束后显示输出内容改为实时显示内容
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.8.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+Depends: python3, python3-tk, python3-pip, aapt, python3-setuptools, deepin-terminal, curl, python3-pil, python3-requests, adb, fonts-noto-cjk, python3-numpy, wget, inotify-tools, aria2, python3-pyqt5
+Recommends: python3-matplotlib, uengine, deepin-elf-verify (>= 0.0.16.7-1)
+Conflicts: spark-uengine-apk-builder, com.gitee.uengine.runner.spark.ubuntu
+Replaces: spark-uengine-runner, com.gitee.uengine.runner.spark.ubuntu
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.8.0_all.deb
+Size: 1166636
+MD5sum: c6af82571f06d5dbd52b348d892629da
+SHA1: 839b62be4d9f720b34912976f2fa7044e772eb67
+SHA256: 6e8bfb309ddb4ff4dc04e89d286fde6e4c625062aa06e1f5977373a0757e2214
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner, https://www.gitlink.org.cn/gfdgd_xi/uengine-runner]
+Description: UEngine 运行器，1.8.0 更新内容：
+ ※1、程序界面大部分由 Tkinter 转 PyQt5
+ ※2、添加了自动/手动配置 UEngine 窗口大小文件（自动需要在设置里手动开启，配置窗口的配置文件需要 Root）
+ ※3、增加了安装/卸载失败后的提示
+ ※4、补回谢明名单
+ ※5、支持免密安装/卸载 APK
+ 6、pip 更换华为源，提升下载速度
+ 7、新增主题功能
+ 8、支持在安装 APK 后手动指定分类（手动指定需要在设置里手动开启）
+ 开发/参与者：gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.8.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+Installed-Size: 1600
+Depends: python3, python3-tk, python3-pip, aapt, python3-setuptools, deepin-terminal, curl, python3-pil, python3-requests, adb, fonts-noto-cjk, python3-numpy, wget, inotify-tools, aria2, python3-pyqt5
+Recommends: python3-matplotlib, uengine, deepin-elf-verify (>= 0.0.16.7-1)
+Conflicts: spark-uengine-apk-builder, com.gitee.uengine.runner.spark.ubuntu
+Replaces: spark-uengine-runner, com.gitee.uengine.runner.spark.ubuntu
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.8.1_all.deb
+Size: 872108
+MD5sum: 839a0fdddb7258757b197fcb91c6ce19
+SHA1: eae66095e859d0a5a217d49dec7f2845f5013162
+SHA256: 71d6fc36de7967cb1142d84fd101b866171c53023c40dfd8e2b0d4dfcbba771f
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner, https://www.gitlink.org.cn/gfdgd_xi/uengine-runner]
+Description: UEngine 运行器，1.8.1 更新内容：
+ ※1、修复在 APK 详细信息中图标可能过大导致无法正常使用的问题
+ ※2、修复 APK 路径带空格无法正常安装的问题
+ 3、修复打包器打包的 APK 带下划线“_”无法正常打包的问题
+ 4、修复打包器下方命令返回过多空白行的问题
+ 开发/参与者：gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.8.1-1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+Installed-Size: 1600
+Depends: python3, python3-tk, python3-pip, aapt, python3-setuptools, deepin-terminal, curl, python3-pil, python3-requests, adb, fonts-noto-cjk, python3-numpy, wget, inotify-tools, aria2, python3-pyqt5, python3-matplotlib, python3-urllib3, deepin-elf-verify (>= 1.1.1-1)
+Recommends: uengine, deepin-elf-verify (>= 0.0.16.7-1)
+Conflicts: spark-uengine-apk-builder, com.gitee.uengine.runner.spark.ubuntu
+Replaces: spark-uengine-runner, com.gitee.uengine.runner.spark.ubuntu
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.8.1-1-uos_all.deb
+Size: 881408
+MD5sum: 7a4c18e204741f2651fa17a4a7eb688b
+SHA1: 966194836e8fd3bc484f94a6a8c6a58bf58921a0
+SHA256: 5b7cf37abb88742c4e5088527c48055352f1121ffc1bcdeb98d43a73e50be17b
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner, https://www.gitlink.org.cn/gfdgd_xi/uengine-runner]
+Description: UEngine 运行器，1.8.1-1 更新内容： 1、修复依赖缺失导致程序无法开启的问题 1.8.1更新内容： ※1、修复在 APK 详细信息中图标可能过大导致无法正常使用的问题 ※2、修复 APK 路径带空格无法正常安装的问题 3、修复打包器打包的 APK 带下划线“_”无法正常打包的问题 4、修复打包器下方命令返回过多空白行的问题 开发/参与者：gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.8.1-1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+Installed-Size: 1600
+Depends: python3, python3-tk, python3-pip, aapt, python3-setuptools, deepin-terminal, curl, python3-pil, python3-requests, adb, fonts-noto-cjk, python3-numpy, wget, inotify-tools, aria2, python3-pyqt5, python3-matplotlib, python3-urllib3
+Recommends: uengine, deepin-elf-verify (>= 0.0.16.7-1)
+Conflicts: spark-uengine-apk-builder, com.gitee.uengine.runner.spark.ubuntu
+Replaces: spark-uengine-runner, com.gitee.uengine.runner.spark.ubuntu
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.8.1-1_all.deb
+Size: 872516
+MD5sum: ccf7516de5e8c412a46381f4c4fc9c01
+SHA1: 1072ed37d819cdf5f390ba34159e68aeb15aeb29
+SHA256: 56429eed0485c953508bb7368cdbe7523e34fd6feb7fe23fb189281c12c73fe7
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner, https://www.gitlink.org.cn/gfdgd_xi/uengine-runner]
+Description: UEngine 运行器，1.8.1-1 更新内容：
+ 1、修复依赖缺失导致程序无法开启的问题
+ 1.8.1更新内容：
+ ※1、修复在 APK 详细信息中图标可能过大导致无法正常使用的问题
+ ※2、修复 APK 路径带空格无法正常安装的问题
+ 3、修复打包器打包的 APK 带下划线“_”无法正常打包的问题
+ 4、修复打包器下方命令返回过多空白行的问题
+ 开发/参与者：gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+
+Package: com.gitee.uengine.runner.spark
+Source: com.gitee.uengine.runner.spark
+Version: 1.8.1-1-spark
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+Installed-Size: 1600
+Depends: python3, python3-tk, python3-pip, aapt, python3-setuptools, deepin-terminal, curl, python3-pil, python3-requests, adb, fonts-noto-cjk, python3-numpy, wget, inotify-tools, aria2, python3-pyqt5, python3-matplotlib, python3-urllib3
+Recommends: uengine, deepin-elf-verify (>= 0.0.16.7-1)
+Conflicts: spark-uengine-apk-builder, com.gitee.uengine.runner.spark.ubuntu
+Replaces: spark-uengine-runner, com.gitee.uengine.runner.spark.ubuntu
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.8.1-1-spark_all.deb
+Size: 872500
+MD5sum: 8e240d73b5710f4e2f54f1b2ef53510b
+SHA1: f2c02a2b3eac5263b5568ff6fb766bdcbb805061
+SHA256: 9e56fe1f3c35831c96f0a6d87b0e464002959a5365f609e0b7b8b97ba1525eff
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner, https://www.gitlink.org.cn/gfdgd_xi/uengine-runner]
+Description: UEngine 运行器，1.8.1-1 更新内容：
+ 1、修复依赖缺失导致程序无法开启的问题
+ 1.8.1更新内容：
+ ※1、修复在 APK 详细信息中图标可能过大导致无法正常使用的问题
+ ※2、修复 APK 路径带空格无法正常安装的问题
+ 3、修复打包器打包的 APK 带下划线“_”无法正常打包的问题
+ 4、修复打包器下方命令返回过多空白行的问题
+ 开发/参与者：gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+
+Package: com.gitee.uengine.runner.spark.ubuntu
+Source: com.gitee.uengine.runner.spark.ubuntu
+Version: 1.6.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1), python3, python3-tk, python3-pip, aapt, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib, fonts-noto-cjk, python3-numpy, python3-matplotlib, wget, inotify-tools, aria2
+Conflicts: spark-uengine-apk-builder, com.gitee.uengine.runner.spark.ubuntu
+Replaces: spark-uengine-runner
+Filename: ./com.gitee.uengine.runner.spark.ubuntu/com.gitee.uengine.runner.spark.ubuntu_1.6.2_all.deb
+Size: 1293900
+MD5sum: cea81dd885d2d0cbbac265d95da48a40
+SHA1: 7707b0b2053a3301580e1d9de024023927e3f56e
+SHA256: 38b67ae9f67bb25fef8b3712e198c5a1986089d62e264f9b39cc257ae99de50f
+Section: utils
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine 运行器，1.6.2 更新内容：
+ ※1、优化了 UEngine 运行器的英语翻译
+ ※2、新增加了可以打开或关闭第三方应用安装的功能（使用此功能后在UEngine里可以使用默认的APK安装程序安装应用，此操作需要使用程序的Adb补丁）
+ ※3、新增加了 UEngine 的 Ubuntu 安装程序
+ ※4、双包合一，只保留了UOS打包标准，可以从旧标准无缝升级（推荐使用本程序的升级程序进行升级）
+ 5、修复了本程序在 Ubuntu 上安装和卸载报错而无法继续的问题
+ 6、优化帮助/关于窗口在高分辨率电脑上显示不全的问题
+
+Package: com.uostools.udom
+Version: 1.1
+Architecture: all
+Maintainer: udom<uostools.com>
+Depends: deepin-elf-verify (>= 0.0.16.7-1)
+Filename: ./com.uostools.udom/signed_com.uostools.udom_all_v1.1.deb
+Size: 4635218
+MD5sum: e5423b68c7e174c8ec82ce8928ca57de
+SHA1: 8fe6ddbeddea7f95678e0ddc416adbd4e2c6bb32
+SHA256: aa3a8f5ce166034a5d4b2dfbd74d24313bf5a7a009c0de2c3380ee32c9d2314e
+Section: web
+Priority: standard
+Homepage: www.uostools.com
+Description: udom工具箱
+
+Package: dde-qt5integration
+Source: qt5integration
+Version: 5.1.12
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1044
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.12.5) | libqt5gui5-gles (>= 5.12.5), libqt5widgets5 (>= 5.10.0), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.0.0), libqt5xdgiconloader3 (>= 3.0.0), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-12-8, dde-qt5xcb-plugin
+Conflicts: libqt5deepintheme-plugin
+Provides: libqt5deepintheme-plugin
+Filename: ./spark-store-dependencies-kylin/dde-qt5integration_5.1.12_amd64.deb
+Size: 265768
+MD5sum: 71f351625c48cf0164e89cc3fce3552c
+SHA1: 0c0b27eb49a5ed6cf59879c0614e7c0642cc124f
+SHA256: 586be484feaf47d3ee945ada8d8000d8784f97bc0181b155fb8ce94ea0dfa109
+Section: devel
+Priority: optional
+Description: Qt platform theme integration plugins for DDE
+ Multiple Qt plugins to provide better Qt5 integration for DDE is included.
+
+Package: dde-qt5xcb-plugin
+Source: dde-qt5platform-plugins
+Version: 5.0.42
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 738
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.11.3.35), libqt5gui5 (>= 5.12.5) | libqt5gui5-gles (>= 5.12.5), libqt5widgets5 (>= 5.11.3.35), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qtbase-abi-5-12-8
+Conflicts: libqt5dxcb-plugin, qt5dxcb-plugin
+Breaks: dde-qt5integration (<< 0.2.8.1)
+Replaces: qt5dxcb-plugin
+Provides: libqt5dxcb-plugin
+Filename: ./spark-store-dependencies-kylin/dde-qt5xcb-plugin_5.0.42_amd64.deb
+Size: 225968
+MD5sum: fcf8684cfd4754d50bef50943caa40ac
+SHA1: fc63befc0a71719a8c284af333ef43895135c7cc
+SHA256: 962552a519a8d2cb7618e82667bb5cc098245b1f8a6dc3239deaecae4b4f9c14
+Section: devel
+Priority: optional
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
+Package: deepin-defender
+Version: 4.5.7-1
+Architecture: amd64
+Maintainer: Packages <packages@deepin.com>
+Installed-Size: 20900
+Depends: libc6 (>= 2.14), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgl1, libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libparted2 (>= 3.1), libpcap0.8 (>= 0.9.8), libpolkit-qt5-1-1 (>= 0.112.0), libprocps7 (>= 2:3.3.15-1), libqt5charts5 (>= 5.7.1), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 7), libudev1 (>= 183), dconf-gsettings-backend | gsettings-backend, deepin-defender-vdbup, deepin-pw-check, iptables
+Recommends: uos-resource-manager, deepin-ima-daemon, deepin-security-enhance
+Filename: ./deepin-defender/deepin-defender_4.5.7-1_amd64.deb
+Size: 12487356
+MD5sum: 337f00f659135d68b45076870c91ae1d
+SHA1: 8420c4a5143fdf9ed7e4df4fab8bb74624a21055
+SHA256: 04bc33855e0e6e634a0c23182dfe05ce1361c763a576108c0c66c509e26dc7a5
+Section: utils
+Priority: optional
+Homepage: https://www.deepin.org
+Description: New deepin defender provide security protection for the system
+ Deepin Defender is the system protection App.
+
+Package: deepin-defender-dbgsym
+Source: deepin-defender
+Version: 4.2.16-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Packages <packages@deepin.com>
+Installed-Size: 69274
+Depends: deepin-defender (= 4.2.16-1)
+Filename: ./deepin-defender-dbgsym/deepin-defender-dbgsym_4.2.16-1_amd64.deb
+Size: 69227404
+MD5sum: 28c278ac4574e30f8a1b989c3143bb21
+SHA1: 5d3b00d1ad5e0d98aa2477981cf005fab4172a1a
+SHA256: 4d27417b7e3d994d5f3054e9721b26af6895603fb38420ca529268079071b41f
+Section: debug
+Priority: optional
+Description: debug symbols for deepin-defender
+Build-Ids: 10e28c398aaf5b9e259ff04d39aadbae5a4aea0c 2f423c3af17c8ca0d7ad48d033b8310e4805b2a1 502814a445be7225efe960033b05cf2c13dc511b 794842ada702ac6575badabb510fb31254993f04 a363df11552c822f61dac8177b01a1e7af9a6dce c098f1dddc2014b522061200a715854124d77bab
+
+Package: deepin-defender-vdbup
+Version: 4.2.4-1
+Architecture: amd64
+Maintainer: Uniontechos THIRD Maintainers <uniontechos-third@uniontech.com>
+Installed-Size: 110439
+Depends: deepin-elf-verify (>= 0.0.16.7-1), libc6 (>= 2.28), libgcc1 (>= 1:3.0), libstdc++6 (>= 6)
+Filename: ./deepin-defender-vdbup/deepin-defender-vdbup_4.2.4-1_amd64.deb
+Size: 96966664
+MD5sum: 7652f487e967965ac40a2267b5597e10
+SHA1: 07acf08443e1900205533456146cb771921bc071
+SHA256: e9f07bc98aa5c1a00c39465c57cbe2278dc891f321508413e68dbdbf6322c9a8
+Section: devel
+Priority: optional
+Homepage: http://www.deepin.com
+Description: AnHeng virus engine
+ Solved the problem that the deepin-defender uses the Anheng virus engine interface.
+
+Package: deepin-defender-vdbup-dbgsym
+Source: deepin-defender-vdbup
+Version: 2.1.2-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Uniontechos THIRD Maintainers <uniontechos-third@uniontech.com>
+Installed-Size: 2013
+Depends: deepin-defender-vdbup (= 2.1.2-1)
+Filename: ./deepin-defender-vdbup-dbgsym/deepin-defender-vdbup-dbgsym_2.1.2-1_amd64.deb
+Size: 606064
+MD5sum: 339e8d2c77209ec51be57090ef3a2d54
+SHA1: e77ed38dfb41c9fd3430cbe7690e57b75b7acfb9
+SHA256: d817c7a8aea7377a08b2230888978d80da3835472b172f06d60766c755d57aba
+Section: debug
+Priority: optional
+Description: debug symbols for deepin-defender-vdbup
+Build-Ids: 18e030c4bab2e01e0b52725fe1e265ccc72ace3d 25d24dc5091a21cdff98d4c8fe437a07573d6adf 58b50c351ed633b3773a58b20650673ec715bdc0 a24da08ffd570967a8ec45c74a9cdb4a1f514055 a95251880bd77fb303c2b472fa10baa957a18979 cd6e623f62b4884019220586dedd8e4bae080e9c d54aba82cbafc8a49947ba8f17c6c3cec9f88e94 d67424f804c7a1a16b8b472f29c27be97feb80a2 f71df3da2050888739390e658504c04a01091579
+
+Package: deepin-elf-verify
+Version: 1.2.0.6-1
+Architecture: amd64
+Maintainer: liuyong <liuyong@deepin.com>
+Installed-Size: 154
+Depends: libc6 (>= 2.14), libelf1 (>= 0.131), libglib2.0-0 (>= 2.31.8), libssl1.1 (>= 1.1.1), libsystemd0 (>= 221), ca-certificates
+Conflicts: deepin-elf-verify (<= 0.1.0.5-1)
+Filename: ./deepin-elf-verify/deepin-elf-verify_1.2.0.6-1_amd64.deb
+Size: 1420
+MD5sum: 8011d29fb7ea802851854ebc7043e670
+SHA1: 4d29cbef5e6c27ff5e7edbd1657b5d164adabd54
+SHA256: 241558843af17372000aa81337662a5dac9ff8b97bad18f1238f81a466e6db35
+Section: admin
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Local elf program validation backend
+ <insert long description, indented with spaces>
+
+Package: deepin-ima-daemon
+Version: 1.0.20-1
+Architecture: amd64
+Maintainer: liuxin <liuxin@uniontech.com>
+Installed-Size: 5850
+Depends: libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.58.2), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), ima-evm-utils, attr
+Filename: ./deepin-ima-daemon/deepin-ima-daemon_1.0.20-1_amd64.deb
+Size: 1563400
+MD5sum: 87d3be83a6b3fe05056fe259e45cc47a
+SHA1: c83cd526ef9c58a961cfbbc2bf35a24e1b957dcc
+SHA256: 403a469d878822af6a52c99c8b99f1fbdefd16698edfba6a23ee2fbdda63a0fe
+Section: devel
+Priority: optional
+Homepage: https://gerrit.uniontech.com/admin/repos/deepin-ima-daemon
+Description: Three level interface of equal protection
+ Provide three-level interface switch with equal protection.
+
+Package: deepin-menu
+Version: 5.0.1-1
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 140
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.0.9+c1), libdtkgui5 (>= 5.0.9+c1), libdtkwidget5, libgcc1 (>= 1:3.0), libgl1, libglib2.0-0 (>= 2.12.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5multimediawidgets5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1), qttranslations5-l10n
+Filename: ./spark-store-dependencies-kylin/deepin-menu_5.0.1-1_amd64.deb
+Size: 41876
+MD5sum: e1c01267ae12824cefbf5b10f0b0329b
+SHA1: 8a37f7bfc01a483828b8175492e379a353770a93
+SHA256: a95a4e5e8a4a0066692e856d7e647a63e9a94e72c06de82485908a58fea256b8
+Section: devel
+Priority: extra
+Homepage: https://github.com/linuxdeepin/deepin-menu
+Description: Deepin menu service
+ Deepin menu service for building beautiful menus.
+
+Package: deepin-pc-butler-daemon
+Version: 3.0.0.0011-1
+Architecture: amd64
+Maintainer: zhangjiangang <zhangjiangang@uniontech.com>
+Installed-Size: 711
+Depends: libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), liblog4cxx10v5, libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libssl-dev, libcurl4-gnutls-dev, libcurl4, qtbase5-dev, liblog4cxx-dev
+Filename: ./deepin-pc-butler-daemon/deepin-pc-butler-daemon_3.0.0.0011-1_amd64.deb
+Size: 234308
+MD5sum: 30db7fb1b736bdd9d40189a83f21c474
+SHA1: bae8d716986dcc3ec3f6aeba2ea1ce430443f209
+SHA256: 0a7f9270b0851f17c6f7a955f4f364d3751895d172b7ff505698f7d21d93114f
+Section: misc
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: deepin-pc-butler daemon programe
+ deepin-pc-butler daemon programe use
+
+Package: deepin-pc-butler-daemon
+Version: 3.0.3.0021
+Architecture: amd64
+Maintainer: zhangjiangang <zhangjiangang@uniontech.com>
+Installed-Size: 852
+Depends: libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), liblog4cxx10v5, libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libssl-dev, libcurl4-gnutls-dev, libcurl4, qtbase5-dev, liblog4cxx-dev, deepin-elf-verify (>= 1.1.1-1)
+Filename: ./deepin-pc-butler-daemon/deepin-pc-butler-daemon_3.0.3.0021_amd64.deb
+Size: 287764
+MD5sum: 3c31f300f66a10badbfef4480035b747
+SHA1: 9d8182a04119c48ca67138d986ee1f8e7bf6bfcf
+SHA256: 3f43f3989213d335567045f16e9329fb95f6d7dfa57a48d4e9634fa0f774660f
+Section: misc
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: deepin-pc-butler daemon programe deepin-pc-butler daemon programe use
+
+Package: deepin-pc-butler-spark
+Version: 3.0.0.0011-spark1
+Architecture: amd64
+Maintainer: zhangjiangang <zhangjiangang@uniontech.com>
+Installed-Size: 61798
+Depends: libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5multimediawidgets5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libqt5xml5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libx11-6, libssl-dev, libcurl4-gnutls-dev, qtmultimedia5-dev, mesa-utils, libcurl4, qtbase5-dev, liblog4cxx10v5, liblog4cxx-dev, deepin-pc-butler-daemon, gstreamer1.0-x, deepin-home-appstore-daemon (>= 7.4.0.0001), com.deepin.license.spark
+Conflicts: deepin-crowd-sourcing (<= 2.2), deepin-driver-daemon (<= 1.1), deepin-pc-butler
+Replaces: deepin-crowd-sourcing (<= 2.2), deepin-driver-daemon (<= 1.1)
+Filename: ./deepin-pc-butler-spark/deepin-pc-butler-spark_3.0.0.0011-spark1_amd64.deb
+Size: 57276200
+MD5sum: 4cc6541a264d42c13e8abac59a00b4ba
+SHA1: d7121f7054f241914fc5551b5de5e88cce003d0b
+SHA256: 6fbefd7c119c2dd753966d0a2375c7c36317011d2638ba503f1e3d23da97ae44
+Section: misc
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: deepin computer butler client
+ deepin computer butler client use
+
+Package: deepin-pc-butler-spark
+Version: 3.0.3.0021-spark1
+Architecture: amd64
+Maintainer: zhangjiangang <zhangjiangang@uniontech.com>
+Installed-Size: 93125
+Depends: libasan5 (>= 8), libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libdframeworkdbus2 (>= 5.5.12), libdtkcore5 (>= 5.5), libdtkgui5 (>= 5.5), libdtkwidget5 (>= 5.5), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5multimediawidgets5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libqt5xml5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libubsan1 (>= 8), libx11-6, libssl-dev, libcurl4-gnutls-dev, qtmultimedia5-dev, mesa-utils, libcurl4, qtbase5-dev, liblog4cxx10v5, liblog4cxx-dev, deepin-pc-butler-daemon (>= 3.0.2.0001), gstreamer1.0-x, deepin-home-appstore-daemon (>= 7.4.0.0001), deepin-elf-verify (>= 1.1.1-1), com.deepin.license.spark
+Conflicts: deepin-crowd-sourcing (<= 2.2), deepin-driver-daemon (<= 1.1), deepin-pc-butler
+Replaces: deepin-crowd-sourcing (<= 2.2), deepin-driver-daemon (<= 1.1)
+Filename: ./deepin-pc-butler-spark/deepin-pc-butler-spark_3.0.3.0021-spark1_amd64.deb
+Size: 48414788
+MD5sum: 4143ba325c2692e8b9dd096780096d2d
+SHA1: 13d2e4ef85dd3de48464ebde8f4bc9d3409715dd
+SHA256: ded6265b64a1d519fb888c439faa2c781cb760fdab0799009e7b9139e2e5df8f
+Section: misc
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: deepin computer butler client deepin computer butler client use
+
+Package: deepin-security-enhance
+Version: 1.1.3-1
+Architecture: amd64
+Maintainer: liuxin <liuxin@uniontech.com>
+Installed-Size: 3793
+Depends: libc6 (>= 2.3.2), libselinux1 (>= 1.32), python, python3, selinux-policy-dev, selinux-policy-default (>= 2:2.20220111-1), policycoreutils, policycoreutils-python-utils, auditd
+Filename: ./deepin-security-enhance/deepin-security-enhance_1.1.3-1_amd64.deb
+Size: 1181664
+MD5sum: 33c891e25f6cd2ab81f8bd7034df0d25
+SHA1: 70d72098816f367c1a26216938e9adacf1bdb918
+SHA256: 669a814a48138cadb4c8409f5d976cfd6e3a0db5732ac3d0c702f0499569cfd1
+Section: devel
+Priority: optional
+Homepage: https://gerrit.uniontech.com/admin/repos/deepin-security-enhance
+Description: Three level interface of Level Protection
+ Provide three-level interface switch with Level Protection.
+
+Package: fonts-wqy-microhei
+Version: 0.2.0-beta-3
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 5135
+Recommends: fontconfig (>= 2.3.1-1)
+Breaks: ttf-wqy-microhei (<< 0.2.0-beta-2)
+Replaces: ttf-wqy-microhei (<< 0.2.0-beta-2)
+Provides: ttf-wqy-microhei
+Filename: ./fonts-wqy-microhei/fonts-wqy-microhei_0.2.0-beta-3_all.deb
+Size: 1605410
+MD5sum: 9c44feb2de10a594c6f9c0f29e1ca84e
+SHA1: 1a320f10a1e5f48851c0862c44237c6a862892f5
+SHA256: 05c4decd3c34cd9ed23492640daa1f500feea4db7cc268db2a6d53eaca3d083a
+Section: fonts
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://wenq.org/
+Description: Sans-serif style CJK font derived from Droid
+ WenQuanYi Micro Hei font family is a sans-serif style (also known as Hei,
+ Gothic or Dotum among the Chinese/Japanese/Korean users) high quality
+ CJK outline font. It was derived from "Droid Sans Fallback", "Droid
+ Sans" and "Droid Sans Mono" released by Google Corp. This font package
+ contains two faces, "Micro Hei" and "Micro Hei Mono", in form of a
+ TrueType Collection (ttc) file. All the unified CJK Han glyphs, i.e.
+ GBK Hanzi, in the range of U+4E00-U+9FC3 defined in Unicode Standard 5.1
+ are covered, with additional support to many other international
+ languages such as Latin, Extended Latin, Hanguls and Kanas. The font
+ file is extremely compact (~5M) compared with most known CJK fonts.
+ As a result, it can be used for hand-held devices or embedded systems, or
+ used on PC with a significantly small memory footprint. Because both
+ font faces carry hinting and kerning instructions for Latin glyphs,
+ they are excellent choices for desktop fonts.
+
+Package: fonts-wqy-zenhei
+Version: 0.9.45-7
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 16432
+Pre-Depends: dpkg (>= 1.15.7.2)
+Depends: fontconfig (>= 2.3.1-1)
+Breaks: ttf-wqy-zenhei (<< 0.9.45-5)
+Replaces: ttf-wqy-zenhei (<< 0.9.45-5)
+Provides: ttf-wqy-zenhei
+Filename: ./fonts-wqy-zenhei/fonts-wqy-zenhei_0.9.45-7_all.deb
+Size: 7472002
+MD5sum: ff8b9f52836aabfeca82fd5c8083eb40
+SHA1: 6198d007d3dcb100106ecec37fd17b2e81d3e340
+SHA256: 68cedf025e0d953ef108ae0a8b765d38299bb9a87efa5e6b6d33b1b76d5c8f29
+Section: fonts
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://wenq.org/wqy2/
+Description: "WenQuanYi Zen Hei" A Hei-Ti Style (sans-serif) Chinese font
+ WenQuanYi Zen Hei is a Hei-Ti style (sans-serif type) Chinese font.
+ It was designed for general purpose text formatting and on-screen
+ display of Chinese characters among many other languages. The embolden
+ strokes of the font glyphs produces enhanced screen contrast, making
+ it easier to read and recognize. The embedded bitmap glyphs further
+ enhance on-screen performance, and can be enabled with the provided
+ configuration files.
+ .
+ WenQuanYi Zen Hei provides a fairly complete coverage of Chinese
+ Hanzi glyphs, including both simplified and traditional forms.
+ The total glyph number in this font is over 35,000, including over
+ 21,000 Chinese Hanzi. This font provides full coverage of GBK (CP936)
+ charset, CJK Unified Ideographs, as well as the code-points needed
+ for zh_CN, zh_SG, zh_TW, zh_HK, zh_MO, ja (Japanese) and ko (Korean)
+ locales for fontconfig.
+ .
+ Starting from version 0.8, this font package provides two font families,
+ i.e. the proportional "WenQuanYi Zen Hei", and the monospaced typeface
+ named "WenQuanYi Zen Hei Mono".
+
+Package: ima-evm-utils
+Version: 1.2-1
+Architecture: amd64
+Maintainer: Dmitry Eremin-Solenikov <dbaryshkov@gmail.com>
+Installed-Size: 69
+Depends: libc6 (>= 2.7), libimaevm0, libkeyutils1 (>= 1.4), libssl1.1 (>= 1.1.0), attr, keyutils
+Filename: ./ima-evm-utils/ima-evm-utils_1.2-1_amd64.deb
+Size: 24028
+MD5sum: c04fbf7e2fca72a145f98df7276efe48
+SHA1: 65528e6214984f54eea036f133e43881c8361c81
+SHA256: 52a3f1a0a0df4138e8c9c6d47758c54040261f279b49b883c68b83346568eb6b
+Section: utils
+Priority: optional
+Homepage: https://sourceforge.net/projects/linux-ima/
+Description: Linux IMA Extended Verification Module signing tools
+ The package provides the Linux Integrity Measurement Architecture (IMA)
+ Extended Verification Module (EVM) tools.
+ .
+ With EVM, the security sensitive extended attributes are verified against
+ offline tampering.
+
+Package: libaria2-0
+Source: aria2
+Version: 1.34.0-4~winerunner
+Architecture: amd64
+Maintainer: Patrick Ruckstuhl <patrick@ch.tario.org>
+Installed-Size: 3966
+Depends: libc-ares2 (>= 1.7.1), libc6 (>= 2.25), libgcc1 (>= 1:3.0), libgmp10, libgnutls30 (>= 3.6.6), libnettle6, libsqlite3-0 (>= 3.5.9), libssh2-1 (>= 1.2.8), libstdc++6 (>= 5.2), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.6)
+Filename: ./libaria2-0/libaria2-0_1.34.0-4~winerunner_amd64.deb
+Size: 1092044
+MD5sum: 71a2674f157804af1a7c7d3db4419fcf
+SHA1: f2550baac5d14d577daaf82fd452b4451e1045e3
+SHA256: 4be613dcaac903bdf21389414a23ef59ae63497df4ca721b18f1111826fad48b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://aria2.github.io/
+Description: C++ library interface to aria2
+ This C++ library offers interface to the core functionality
+ of aria2 like networking and downloading.
+
+Package: libaria2-0
+Source: aria2
+Version: 1.34.0-4~winerunner~winerunner
+Architecture: amd64
+Maintainer: Patrick Ruckstuhl <patrick@ch.tario.org>
+Installed-Size: 3966
+Depends: libc-ares2 (>= 1.7.1), libc6 (>= 2.25), libgcc1 (>= 1:3.0), libgmp10, libgnutls30 (>= 3.6.6), libnettle6, libsqlite3-0 (>= 3.5.9), libssh2-1 (>= 1.2.8), libstdc++6 (>= 5.2), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.6)
+Filename: ./libaria2-0/libaria2-0_1.34.0-4~winerunner~winerunner_amd64.deb
+Size: 1092592
+MD5sum: 9525b1a7111c2017d68da4ca73f381c6
+SHA1: c50f2eac386e73ea7ddd8416673919188cb1cb44
+SHA256: 2b1fdbe1c42cedb64a20b97c0cec5afe65b10c25879ed51d89bccedcae66ef94
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://aria2.github.io/
+Description: C++ library interface to aria2
+ This C++ library offers interface to the core functionality
+ of aria2 like networking and downloading.
+
+Package: libc-ares2
+Source: c-ares
+Version: 1.14.0-1+deb10u1~winerunner
+Architecture: amd64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 141
+Depends: libc6 (>= 2.17)
+Conflicts: libcares2
+Replaces: libc-ares1
+Filename: ./libc-ares2/libc-ares2_1.14.0-1+deb10u1~winerunner_amd64.deb
+Size: 86108
+MD5sum: 9366743b48fb492423778da3fa76d593
+SHA1: 48ef0e7c07ae20dfe1d7d1452c2ed07cefbf612b
+SHA256: 9366434df3e4105e415cd2959d65682c83b64fc22e8d6954bdbb263ce96fd8e9
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://c-ares.haxx.se/
+Description: asynchronous name resolver
+ c-ares is a C library that performs DNS requests and name resolution
+ asynchronously.
+ .
+ It is a fork of the library named "ares", with additional features:
+  * IPv6 support;
+  * extended cross-platform portability;
+  * 64-bit clean sources.
+ .
+ This package provides the shared libraries.
+
+Package: libc-ares2
+Source: c-ares
+Version: 1.14.0-1+deb10u1~winerunner~winerunner
+Architecture: amd64
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 141
+Depends: libc6 (>= 2.17)
+Conflicts: libcares2
+Replaces: libc-ares1
+Filename: ./libc-ares2/libc-ares2_1.14.0-1+deb10u1~winerunner~winerunner_amd64.deb
+Size: 86084
+MD5sum: 42f5aade23021c0b9e61b2535385db20
+SHA1: 9831d8fbffc8bc6eb9ba885e406c73853ab07097
+SHA256: e38fe0d4651dd5683d1c99b957ac50dee2bd081ad3e52d1ed4627c9fc5eeddd9
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://c-ares.haxx.se/
+Description: asynchronous name resolver
+ c-ares is a C library that performs DNS requests and name resolution
+ asynchronously.
+ .
+ It is a fork of the library named "ares", with additional features:
+  * IPv6 support;
+  * extended cross-platform portability;
+  * 64-bit clean sources.
+ .
+ This package provides the shared libraries.
+
+Package: libdframeworkdbus2
+Source: dde-qt-dbus-factory
+Version: 5.4.20
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4308
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./spark-store-dependencies-kylin/libdframeworkdbus2_5.4.20_amd64.deb
+Size: 786868
+MD5sum: 8cc4005c80051499aa861510b569ffd9
+SHA1: 3c36c62bddf00b6c306373a68f421fe62c65e3b2
+SHA256: 107d62114b8b09a4ead59ac25f679ca9240635bdcbd51aba33e8a34b32f210ed
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
+Description: Qt DBus interface library for Deepin software (shared library)
+ Libdframeworkdbus provides Qt DBus interface for various Deepin software.
+ It centralizes DBus-related code into single library for Deepin software
+ written in Qt and get itself generated from handwritten XML DBus interface
+ descriptions.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
+Package: libdtkcommon
+Source: dtkcommon
+Version: 5.5.17
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 11
+Depends: dconf-gsettings-backend | gsettings-backend
+Conflicts: libdtkcore5 (<< 5.4.10), libdtkgui5 (<< 5.4.10)
+Replaces: libdtkcore5 (<< 5.4.10), libdtkgui5 (<< 5.4.10)
+Filename: ./spark-store-dependencies-kylin/libdtkcommon_5.5.17_amd64.deb
+Size: 2132
+MD5sum: a42a907782f8e99e685fe542eb2213c4
+SHA1: 7c51afdf90181c7786bba4d67439d54ca08b0bf4
+SHA256: e9002cd9a4ffccd04b4f8c57d9a6654379fae8873ecff47ec0e3943767bef85d
+Section: libdevel
+Priority: optional
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public configuration files
+
+Package: libdtkcore5
+Source: dtkcore
+Version: 5.4.20
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 996
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.11.3.33), libqt5xml5 (>= 5.11.3.33), libstdc++6 (>= 5.2), lshw, libdtkcommon
+Filename: ./spark-store-dependencies-kylin/libdtkcore5_5.4.20_amd64.deb
+Size: 270564
+MD5sum: 623c88188cad976ae8a043b7db619ab1
+SHA1: e3c8b48bdf8dc598e1e6619275fc36fde18a64e9
+SHA256: dd89bd979f90bd5565c675672e47e1d94cb6eeed2ea6bdca69e0df2f338b94b9
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkgui5
+Source: dtkgui
+Version: 5.4.15
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 524
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.5), qtbase-abi-5-12-8, libdtkcommon
+Filename: ./spark-store-dependencies-kylin/libdtkgui5_5.4.15_amd64.deb
+Size: 132016
+MD5sum: 3f3bbad9503819ab637691e3cc5f573e
+SHA1: fb96bd7cb2c455fb1bc28c9d7d992065365d521c
+SHA256: 87007f987da3d55d2622db491bd6fb265a62da82ad38764d5bf1faa3b2c7e6a8
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkwidget5
+Source: dtkwidget
+Version: 5.4.20
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3308
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-12-8, libdtkcommon
+Filename: ./spark-store-dependencies-kylin/libdtkwidget5_5.4.20_amd64.deb
+Size: 778316
+MD5sum: f78d54f21f405f8bff77c2f7d2079f2c
+SHA1: 5939555c4b911ac38678623cba3dfe24b8054dcd
+SHA256: dd9a56219248892c0f0027572cbdf93b53ebdc3da85eed90a4563b714d09e70f
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
+Package: libnettle6
+Source: nettle
+Version: 3.4.1-1+deb10u1~winerunner
+Architecture: amd64
+Maintainer: Magnus Holmgren <holmgren@debian.org>
+Installed-Size: 380
+Depends: libc6 (>= 2.14)
+Filename: ./libnettle6/libnettle6_3.4.1-1+deb10u1~winerunner_amd64.deb
+Size: 214608
+MD5sum: 84304d6c20b9805ee0584835e71eed5e
+SHA1: 6656c7d0051c1407582c94d158588af639d6efcb
+SHA256: 3edf9e9759bdad299164017d6dd38df7a383741c5e44b48d50df160c16f31cd1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Description: low level cryptographic library (symmetric and one-way cryptos)
+ Nettle is a cryptographic library that is designed to fit easily in more or
+ less any context: In crypto toolkits for object-oriented languages (C++,
+ Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
+ space.
+ .
+ It tries to solve a problem of providing a common set of cryptographic
+ algorithms for higher-level applications by implementing a
+ context-independent set of cryptographic algorithms. In that light, Nettle
+ doesn't do any memory allocation or I/O, it simply provides the
+ cryptographic algorithms for the application to use in any environment and
+ in any way it needs.
+ .
+ This package contains the symmetric and one-way cryptographic
+ algorithms. To avoid having this package depend on libgmp, the
+ asymmetric cryptos reside in a separate library, libhogweed.
+
+Package: libssh2-1
+Source: libssh2
+Version: 1.8.0-2.1~winerunner
+Architecture: amd64
+Maintainer: Mikhail Gusarov <dottedmag@debian.org>
+Installed-Size: 270
+Depends: libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), zlib1g (>= 1:1.1.4)
+Filename: ./libssh2-1/libssh2-1_1.8.0-2.1~winerunner_amd64.deb
+Size: 139780
+MD5sum: 5b4167286df626857f3a9413128d1d00
+SHA1: 096e8e5bb2c3c2c5c517987ab8337211f89922f9
+SHA256: 2dbb8d5b5ebf46378ce12b78a86e8b56c454201eebdc70215a4821ba267298a1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://libssh2.org/
+Description: SSH2 client-side library
+ libssh2 is a client-side C library implementing the SSH2 protocol.
+ It supports regular terminal, SCP and SFTP (v1-v5) sessions;
+ port forwarding, X11 forwarding; password, key-based and
+ keyboard-interactive authentication.
+ .
+ This package contains the runtime library.
+
+Package: libtcl8.6
+Source: tcl8.6
+Version: 8.6.9+dfsg-2~winerunner
+Architecture: amd64
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Installed-Size: 4143
+Depends: tzdata, libc6 (>= 2.15), zlib1g (>= 1:1.2.2)
+Suggests: tcl8.6
+Conflicts: tcl74 (<= 7.4p3-2), tcl8.6 (<< 8.6.0-2)
+Breaks: nsf (<< 2.2.0)
+Replaces: tcl8.6 (<< 8.6.0-2)
+Provides: libtcl
+Filename: ./libtcl8.6/libtcl8.6_8.6.9+dfsg-2~winerunner_amd64.deb
+Size: 1005176
+MD5sum: d4e949b92c726fe66c3b777e060aa6ea
+SHA1: 0f83f168e93089d46ecbd0bdf286270728cc0dd0
+SHA256: 71e822b23f80a7a1b97ad40085cffb640ad418af7b0a1dc77d3ebda80be5791a
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.tcl.tk/
+Description: Tcl (the Tool Command Language) v8.6 - run-time library files
+ Tcl is a powerful, easy to use, embeddable, cross-platform interpreted
+ scripting language.  This package contains the Tcl library and auxiliary
+ code which allows one to run Tcl-enabled applications.  This version
+ includes thread support.
+
+Package: libtk8.6
+Source: tk8.6
+Version: 8.6.9-2~winerunner
+Architecture: amd64
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Installed-Size: 2370
+Depends: libtcl8.6 (>= 8.6.0-2), libc6 (>= 2.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libx11-6, libxext6, libxft2 (>> 2.1.1), libxss1, zlib1g (>= 1:1.1.4)
+Suggests: tk8.6
+Conflicts: libtk-img (<< 1.2.5), tk40 (<= 4.0p3-2), tk8.6 (<< 8.6.0-2)
+Replaces: tk8.6 (<< 8.6.0-2)
+Provides: libtk
+Filename: ./libtk8.6/libtk8.6_8.6.9-2~winerunner_amd64.deb
+Size: 767316
+MD5sum: 5e844c59336540faf542ece4c435561f
+SHA1: 08344809691f0535b125929e247c7e52522794f8
+SHA256: 35d3e5ef291a0171e7490ae4114330fbbdde2bcc1f1e1819ec9c2384a7b0a9fe
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.tcl.tk/
+Description: Tk toolkit for Tcl and X11 v8.6 - run-time files
+ Tk is a cross-platform graphical toolkit which provides the Motif
+ look-and-feel and is implemented using the Tcl scripting language.
+ This package contains the Tk library and supplementary packages you
+ need to run Tk-enabled apps.
+
+Package: libwim15
+Source: wimlib (1.13.0-1)
+Version: 1.13.0-1+b1
+Architecture: amd64
+Maintainer: Hilko Bengen <bengen@debian.org>
+Installed-Size: 391
+Depends: libc6 (>= 2.27), libfuse2 (>= 2.8), libntfs-3g883, libxml2 (>= 2.7.4)
+Suggests: wimtools
+Filename: ./libwim15/libwim15_1.13.0-1+b1_amd64.deb
+Size: 168868
+MD5sum: d875b3063d8c8c0c022aa9b147fea084
+SHA1: 33dd9c44cd063e7f0af037f955c02d8465888f78
+SHA256: 31475d985ca1eb10619109eff0bc7e2c03df77d717e973844f6b335faaff43aa
+Section: libs
+Priority: optional
+Homepage: http://wimlib.net/
+Description: Library for manipulating Windows Imaging files
+ wimlib is a C library for extracting, creating, modifying, and
+ mounting WIM (Windows Imaging) files.
+ .
+ WIM is an archive format designed primarily for archiving Windows
+ filesystems. It features single-instancing and LZ77-based
+ compression, and is used by Microsoft to distribute and deploy
+ Windows Vista and later.
+
+Package: libxcb-util0
+Source: xcb-util
+Version: 0.3.8.1-1+rebuild
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 63
+Depends: libc6 (>= 2.8), libxcb1
+Filename: ./spark-store-dependencies-kylin/libxcb-util0_0.3.8.1-1+rebuild_amd64.deb
+Size: 21396
+MD5sum: 0005f173346d38b7bd527a388af6a467
+SHA1: 8140ec186a2f840eaba58d41eb6927f537059963
+SHA256: d571cf09a867aa8a9d416e3bfdfdbb53dae1f97d0f499cc4f7ef9124b953f9ca
+Section: libs
+Priority: extra
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Description: utility libraries for X C Binding -- atom, aux and event
+ This package contains the library files needed to run software using
+ libxcb-util.
+ .
+ The xcb-util module provides a number of libraries which sit on top of
+ libxcb, the core X protocol library, and some of the extension
+ libraries. These experimental libraries provide convenience functions
+ and interfaces which make the raw X protocol more usable. Some of the
+ libraries also provide client-side code which is not strictly part of
+ the X protocol but which have traditionally been provided by Xlib.
+
+Package: ms-core-fonts
+Version: 1.0
+Architecture: i386
+Maintainer: shenmo <jifengshenmo@outlook.com>
+Installed-Size: 34652
+Depends: fontconfig , xfonts-utils
+Filename: ./ms-core-fonts/ms-core-fonts_1.0_i386.deb
+Size: 17533932
+MD5sum: 69a943f7f86df48ce8611d8a05f5fdcc
+SHA1: 1ea9f918714f971dff01df9e9e1625c4ce882306
+SHA256: 988365737fa2314ddea102adea486e7b129c1e6f4cd9d096e07fc65693164f9c
+Section: utils
+Priority: optional
+Description: 微软核心字体包
+
+Package: python3-cssselect
+Source: python-cssselect
+Version: 1.0.3-1~winerunner
+Architecture: all
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 78
+Depends: python3
+Filename: ./python3-cssselect/python3-cssselect_1.0.3-1~winerunner_all.deb
+Size: 18620
+MD5sum: f21fe823aaeb3c3250a9ad1e103ad36f
+SHA1: 7a9cff7bb967b0a26c4bfabc2f26febe9b80d238
+SHA256: ed81da97deb64bd27cbe21629a9650896abfe3fb571f8736cb1cbd3ac518e9f4
+Section: python
+Priority: optional
+Homepage: https://pypi.python.org/pypi/cssselect
+Description: cssselect parses CSS3 Selectors and translates them to XPath 1.0
+ cssselect parses CSS3 Selectors and translate them to XPath 1.0 expressions.
+ Such expressions can be used in lxml or another XPath engine to find the
+ matching elements in an XML or HTML document.
+ .
+ This module used to live inside of lxml as lxml.cssselect before it was
+ extracted as a stand-alone project.
+ .
+ This package provides the Python 3.x module.
+
+Package: python3-pil.imagetk
+Source: pillow
+Version: 5.4.1-2+deb10u3~winerunner
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 95
+Depends: python3-pil (= 5.4.1-2+deb10u3), python3-tk (>= 3.4.1-2), python3 (<< 3.8), python3 (>= 3.7~), python3:any, libc6 (>= 2.4)
+Suggests: python-pil-doc, python3-pil.imagetk-dbg
+Breaks: python3-imaging-tk (<< 1.1.7+2.0.0-1.1)
+Replaces: python3-imaging-tk (<< 1.1.7+2.0.0-1.1)
+Filename: ./python3-pil.imagetk/python3-pil.imagetk_5.4.1-2+deb10u3~winerunner_amd64.deb
+Size: 65472
+MD5sum: 05f33c5e2e5102b707a14e7e2fa8622f
+SHA1: 3505e334166de3a919679210710cdfd4661f1956
+SHA256: 2ba9701d063ed59af558140f112a6f324835c520d585a7196f61f81f82c79722
+Section: python
+Priority: optional
+Multi-Arch: same
+Homepage: http://python-pillow.github.io/
+Description: Python Imaging Library - ImageTk Module (Python3)
+ Tk dependent python-pil module.
+
+Package: python3-pyquery
+Source: pyquery
+Version: 1.2.9-3~winerunner
+Architecture: all
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 94
+Depends: python3-lxml, python3-webob, python3-cssselect, python3:any (>= 3.3.2-2~)
+Filename: ./python3-pyquery/python3-pyquery_1.2.9-3~winerunner_all.deb
+Size: 18244
+MD5sum: 9a894fcf1abdc7d6c48f2c10a5aea3fc
+SHA1: 5a6d696ac94458ca89469d571488a0244ef61a18
+SHA256: 2224772a60758eb83036aa09c625105a9899a392f8a8d7c176ae3ca3969b9c8e
+Section: python
+Priority: optional
+Homepage: http://pyquery.org/
+Description: jQuery-like library for python 3
+ pyquery allows you to make jQuery queries on XML documents. The API is as
+ similar to jQuery as possible. pyquery uses lxml for fast XML and HTML
+ manipulation.
+ .
+ This package contains the module for Python 3.
+
+Package: python3-tk
+Source: python3-stdlib-extensions
+Version: 3.7.3-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 451
+Depends: python3 (>= 3.7.1-1~), python3 (<< 3.8), blt (>= 2.4z-9), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), libx11-6, tk8.6-blt2.5 (>= 2.5.3)
+Suggests: tix, python3-tk-dbg
+Breaks: libpython3.6-stdlib (<< 3.6.4~rc1-2), libpython3.7-stdlib (<< 3.7.0~a3-2)
+Replaces: libpython3.6-stdlib (<< 3.6.4~rc1-2), libpython3.7-stdlib (<< 3.7.0~a3-2)
+Provides: python3.7-tk
+Filename: ./python3-tk/python3-tk_3.7.3-1_amd64.deb
+Size: 97400
+MD5sum: bc6e57c2a1fd354e90f46fb7a882dcbd
+SHA1: 8c4a5f7ef0a614a4f9515a6d9bda528ddf630dc4
+SHA256: ec55733d3c1ff4021926fe43e66739ce6b55a36ebdc446568c5ce8f9f1dfa6f4
+Section: python
+Priority: optional
+Multi-Arch: same
+Description: Tkinter - Writing Tk applications with Python 3.x
+ A module for writing portable GUI applications with Python 3.x using Tk.
+ Also known as Tkinter.
+
+Package: python3-tk
+Source: python3-stdlib-extensions
+Version: 3.7.3-1~winerunner
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 451
+Depends: python3 (>= 3.7.1-1~), python3 (<< 3.8), blt (>= 2.4z-9), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), libx11-6, tk8.6-blt2.5 (>= 2.5.3)
+Suggests: tix, python3-tk-dbg
+Breaks: libpython3.6-stdlib (<< 3.6.4~rc1-2), libpython3.7-stdlib (<< 3.7.0~a3-2)
+Replaces: libpython3.6-stdlib (<< 3.6.4~rc1-2), libpython3.7-stdlib (<< 3.7.0~a3-2)
+Provides: python3.7-tk
+Filename: ./python3-tk/python3-tk_3.7.3-1~winerunner_amd64.deb
+Size: 97428
+MD5sum: f2b5bbd28ffba9d9cb5b842b7150296f
+SHA1: 669c22c02b2c868d9ecc9f5315648077ea5d9c8e
+SHA256: e10354b72ba0781adcd1550e785fcc4fb63ecaedc4de9a089f1a47a2d31f291e
+Section: python
+Priority: optional
+Multi-Arch: same
+Description: Tkinter - Writing Tk applications with Python 3.x
+ A module for writing portable GUI applications with Python 3.x using Tk.
+ Also known as Tkinter.
+
+Package: selinux-policy-default
+Source: refpolicy
+Version: 2:2.20220218-1
+Architecture: all
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Installed-Size: 4835
+Depends: libselinux1 (>= 2.8-1), libsemanage1 (>= 2.8-1), libsepol1 (>= 2.8-1), policycoreutils (>= 2.8-1), selinux-utils (>= 2.8-1)
+Recommends: checkpolicy, setools
+Suggests: logcheck, syslog-summary
+Conflicts: mcstrans
+Breaks: selinux-basics (<< 0.5.2~)
+Filename: ./selinux-policy-default/selinux-policy-default_2.20220218-1_all.deb
+Size: 3535836
+MD5sum: 5d40e366392f1967d837bcba4277f4bb
+SHA1: 9a498ce499632646cdea85eab9f1f6dc8fe09b7f
+SHA256: f518ff69a1cf7a94d55afa3ac1a199cad9861ac6312a090d6d2502b92b02299c
+Section: admin
+Priority: optional
+Homepage: https://github.com/SELinuxProject/refpolicy/releases
+Description: Strict and Targeted variants of the SELinux policy
+ This is the reference policy for SE Linux.  In the default configuration it
+ will provide the functionality previously known as the "targeted" policy.  If
+ the module "unconfined" is removed then it provides the functionality
+ previously known as the "strict" policy.
+ .
+ This uses the MMCS system of categories.
+
+Package: spark-deepin-wine-runner
+Version: 1.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 36
+Depends: python3-tk, python3
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.0_all.deb
+Size: 2236
+MD5sum: 86a2c57ce7e1f9493916d4ac1014333f
+SHA1: 5c6a618d3b6a4ed000500847dee82ffb14847fec
+SHA256: c38ddafe05c3d73fdebac27a38c91ab040b8dbdd3919188f805430902bd4d126
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi make's deepin-wine runner
+
+Package: spark-deepin-wine-runner
+Version: 1.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 40
+Depends: python3, python3-tk
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.1_all.deb
+Size: 3340
+MD5sum: bcdb9c75116a98def21274e972697488
+SHA1: 054611aa30423253e4b5120cb46a64c8ac35d914
+SHA256: 2aa8f84fccfc28ee2418f562361db62022b48bd84a1862f16b86fbeb4a744b0f
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi make's deepin-wine runner
+
+Package: spark-deepin-wine-runner
+Version: 1.1.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 40
+Depends: python3, python3-tk
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.1.1_all.deb
+Size: 39920
+MD5sum: db8165de6c122a0b6c90c0cefea4ab38
+SHA1: 4b947f23b9748f594512b620f7ab72ef39579f20
+SHA256: 1c52d07c631dcd6b79a15a3874373f814679e39a4c7facef57a6aaa31d9dc21c
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi make's deepin-wine runner
+
+Package: spark-deepin-wine-runner
+Version: 1.3.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 40
+Depends: python3, python3-tk
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.3.0_all.deb
+Size: 40328
+MD5sum: 8c84e7992a832f58d0a91aaf24e68ea6
+SHA1: d746730252b43b511e82751e066008c7877cd00a
+SHA256: 92d60ebd5a918128e61d1090e253d4437c32c4f89fd8c39648085bcdc29ebab5
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi make's deepin-wine runner
+
+Package: spark-deepin-wine-runner
+Version: 1.3.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.3.1_all.deb
+Size: 41428
+MD5sum: f90320d9eaf302211ec143a0af3cae8d
+SHA1: 2e99b9507b9a887afed9e05e99dd2c13e8034048
+SHA256: 9b87e45b7cd21eb433ba764a4eae5dde04603fbc4919bbea23ad3c9e710eee41
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi make's wine runner
+
+Package: spark-deepin-wine-runner
+Version: 1.4.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.4.0_all.deb
+Size: 41872
+MD5sum: 240f72d536b7878e5272b46bb176158e
+SHA1: 6cefc4412d8f4820a3789d44a0219d4bf6d082db
+SHA256: 0d28ff498881637e23982bc6605d10f9225a4ac42a4a5ddfc69512f6c1b12414
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi make's wine runner
+
+Package: spark-deepin-wine-runner
+Version: 1.5.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip, python3-pil, python3-pil.imagetk
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.5.0.deb
+Size: 2128012
+MD5sum: 9dd7ed7ec5bd77df8f92f2c23ca8a36e
+SHA1: 96fb88839667bf4363bccfd2b6f46e76a25d6ab1
+SHA256: 0427c16cfbe1eaa1d659b7a725ab9312cad8931adbe438f4a758efabb2862a22
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi make's wine runner
+
+Package: spark-deepin-wine-runner
+Version: 1.5.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: python3, python3-tk, python3-pip, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.5.1_all.deb
+Size: 2257932
+MD5sum: a4591ea5d1b65abe9704ee539a4746ec
+SHA1: 2dd28199b7ef0c2011bf91cc6eaacdd037a8f9c7
+SHA256: 61c990e725b5e785bc5bffc10e5f92bbdecee364e19f244a5c0371d5a4837dc1
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi 制作的 wine 运行器
+ 更新内容：
+ ※1、支持打开 spark-wine7-devel 的专门缩放设置（如未安装则此按钮禁用）
+ ※2、支持提取选择的 exe 文件的图标
+ ※3、支持向指定的 wine 容器安装 mono、gecko、.net framework（此功能在菜单栏“Wine”中，卸载只需要使用程序的卸载按钮打开 Geek Uninstaller 即可）
+ ※4、支持指定特定的 wine 容器调用 winetricks
+ ※5、在没有指定 wine 容器的情况下，将自动设置为 ~/.wine
+ 6、新增 ukylin-wine
+ 7、将默认选择的 wine 改为 deepin-wine6 stable
+ 8、支持打开指定容器的 winecfg、winver、regedit、taskmgr
+ 9、双击使用 wine 运行器打开 exe（不知道能不能生效）
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 1.5.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: python3, python3-tk, python3-pip, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.5.2_all.deb
+Size: 5310836
+MD5sum: 1743679c244790eaaa91f5a2611ebd26
+SHA1: 71dcda13fb64393ebf97539f98855a6085fa60d8
+SHA256: 79fabad729e8eb498e02d1e5b13b3ae2f01bb1f9c1b76bdb9bc7d844c91354f3
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi 制作的 wine 运行器
+ 更新内容：
+ ※1、添加并翻新了 deepin-wine5 打包器，改为 wine 打包器，支持常见 wine 的打包
+ ※2、新增 Visual Studio C++ 的安装程序
+ ※3、新增从系统安装镜像提取 DLL 到 wine 容器的功能（当前只支持 Windows XP 和 Windows Server 2003 的官方安装镜像）
+ 4、修复了安装星火应用商店的 wine 运行器右键打开方式没有 wine 运行器选项的问题
+ 5、新增脚本，优化 deepin terminal 调用本程序脚本显示不佳的问题
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 1.5.3
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: python3, python3-tk, python3-pip, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.5.3_all.deb
+Size: 5316648
+MD5sum: 37792201a9c0a61073340b6caf4dfd7c
+SHA1: 062ddee8becdd6b5a7288427dc9e0355c5393792
+SHA256: e3d32f1024baf2f2f9bc59ba00c8d260212ac4fe61c239d27211354e82dc0ef9
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi 制作的 wine 运行器
+ 更新内容：
+ ※1、添加并翻新了 deepin-wine5 打包器，改为 wine 打包器，支持常见 wine 的打包
+ ※2、新增 Visual Studio C++ 的安装程序
+ ※3、新增从系统安装镜像提取 DLL 到 wine 容器的功能（当前只支持 Windows XP 和 Windows Server 2003 的官方安装镜像）
+ 4、修复了安装星火应用商店的 wine 运行器右键打开方式没有 wine 运行器选项的问题
+ 5、新增脚本，优化 deepin terminal 调用本程序脚本显示不佳的问题
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 1.6.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: python3, python3-tk, python3-pip, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.6.0_all.deb
+Size: 5322672
+MD5sum: d7daf991f7bc8465fc0d1dac6d3e7a97
+SHA1: b6b2ec9d7a89cb41003877120a1f341d83074de6
+SHA256: 975b093763e52e3a6de060ffdde81f357eebb6b67622a28d6954fb5e7c61f052
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi 制作的 wine 运行器
+ 更新内容：
+ ※1、新增程序感谢、谢明以及程序的建议和问题反馈和内置更新程序
+ ※2、支持 winetricks 指定 Wine 打开
+ ※3、新增窗口透明工具，感谢@a2035274 和 @虚幻的早晨 在论坛的讨论
+ ※4、支持在指定容器、Wine 安装 MSXML
+ ※5、支持启用/关闭 opengl（感谢@zhangs 在论坛发帖）以及支持安装/卸载 winbind
+ ※6、添加云沙箱的网站链接快捷方式
+ ※7、支持从星火应用商店源安装 Windows 常见字体
+ 8、优化窗口布局以及默认显示位置
+ 9、支持打开指定容器、Wine 的资源管理器
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 1.7.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.7.0_all.deb
+Size: 9315056
+MD5sum: 6fc3a3ccd36a578906b284c73af459f8
+SHA1: ffbff068419c649c39e95bceb3883a74fcac2869
+SHA256: 3a9a28aaa2550127d936a1c10d9dcbddb9ca5e1f326dd34f9849b2ce495fb352
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi 制作的 wine 运行器
+ 更新内容：
+ ※1、界面大改造，从使用 Tkinter 改为 Qt，参考了 @134******28 和 @sgb76 提供的设计方案和代码
+ ※2、添加了基于 UOS 生态适配活动打包脚本的打包器，以及基于 Virtualbox 的简易 Windows 镜像安装工具
+ ※3、将 pip 由阿里源改为华为源，提升下载安装速度，并删除使用 pip 下载库的功能（已不需要，废弃）
+ 4、添加 @delsin 和 @神末shenmo 建议的 postrm 脚本
+ 5、优化多屏窗口居中问题
+ 6、修复 1.6.0 程序无法保存设置的问题
+ 7、修复 1.6.0 的更新程序无法正常更新的问题
+ 8、升级 Geek Uninstaller 版本
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 1.8.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_1.8.0_all.deb
+Size: 9317124
+MD5sum: c8652468fe663dba896eb0f2c00ce5c6
+SHA1: a7e4e673b24caabae58379e018619cbca199dfb9
+SHA256: d1c62ecf8f30e0bb798ca79b512d46e7d7f8d8bdba09a711cc5822b5250482f5
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi 制作的 wine 运行器
+ 更新内容：
+ ※1、界面大改造，从使用 Tkinter 改为 Qt，参考了 @134******28 和 @sgb76 提供的设计方案和代码
+ ※2、添加了基于 UOS 生态适配活动打包脚本的打包器，以及基于 Virtualbox 的简易 Windows 镜像安装工具
+ ※3、将 pip 由阿里源改为华为源，提升下载安装速度，并删除使用 pip 下载库的功能（已不需要，废弃）
+ 4、添加 @delsin 和 @神末shenmo 建议的 postrm 脚本
+ 5、优化多屏窗口居中问题
+ 6、修复 1.6.0 程序无法保存设置的问题
+ 7、修复 1.6.0 的更新程序无法正常更新的问题
+ 8、升级 Geek Uninstaller 版本
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.0.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 23500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, toilet
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.0.0_all.deb
+Size: 19017048
+MD5sum: 0be61b0cde56a075c7929d9cd22dd5f2
+SHA1: 6b7f1b2c75e2b3a8e27579978c5be2e9be6c49d0
+SHA256: 0b6801688da7b64e0d0a50834b9dcc8081d6bcd7ca415ff3d081102b63eae84b
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 更新内容：
+ ※1、界面大改造，从使用 Tkinter 改为 Qt，参考了 @134******28 和 @sgb76 提供的设计方案和代码
+ ※2、添加了基于 UOS 生态适配活动打包脚本的打包器，以及基于 Virtualbox 的简易 Windows 镜像安装工具
+ ※3、将 pip 由阿里源改为华为源，提升下载安装速度，并删除使用 pip 下载库的功能（已不需要，废弃）
+ 4、添加 @delsin 和 @神末shenmo 建议的 postrm 脚本
+ 5、优化多屏窗口居中问题
+ 6、修复 1.6.0 程序无法保存设置的问题
+ 7、修复 1.6.0 的更新程序无法正常更新的问题
+ 8、升级 Geek Uninstaller 版本
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.0.0-1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 23500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, toilet, python3-psutil
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.0.0-1_all.deb
+Size: 19018084
+MD5sum: f965fc8eb0a7cca9e21038dec45dc2c1
+SHA1: e6e71670dbeb2b5b797c6becb70c26eddbec2904
+SHA256: 06c460b883127b57821df80582c9883cd9605d3d9c71e8cfe3fc31995790d240
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 更新内容：
+ ※1、修复了重复路径一直自动重复增加的问题
+ ※2、修复了两个打包器打包错误的问题（非基于生态活动脚本的为 wine 导入错误，基于生态活动脚本的为架构有误导致打包出的 deb 无法打包）
+ ※3、适配了部分非 i386、amd64 架构计算机的 UOS 系统使用的 wine 并支持打包非 i386、amd64 架构计算机的 UOS 系统使用的 wine 程序 deb 包
+ ※4、支持安装 dxvk（遵守 Zlib 开源协议）
+ ※5、运行器、打包器（包括非基于生态适配活动脚本制作的）支持使用 Wine 生态适配活动的容器清理脚本
+ ※6、支持更加简易的安装最新版的 WineHQ
+ ※7、增加字体商店
+ ※8、新增查看可执行文件运行情况的功能
+ 9、支持不显示没有安装的 Wine，方便用户识别
+ 10、修改了 Wine 的顺序使其更加合理
+ 11、支持删除安装 exe 后在启动器的快捷方式
+ 12、优化了 Wine 打包器（非基于生态活动脚本）对容器的处理
+ 13、修复了 Wine 打包器（非基于生态活动脚本）打包出的 deb 安装时显示为解压缩后会消耗 0 B 的额外空间以及 postrm 的一些问题
+ 14、支持删除无需使用的程序组件
+ 15、支持组件/运行库下载后缓存方便下次使用（可以清理）
+ 16、点击获取图标按钮后会自动读取 exe 框的程序图标（不支持相对路径和包内路径，只支持绝对路径）
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.0.0-2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 23500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.0.0-2_all.deb
+Size: 19017840
+MD5sum: 50d151a4caf3b475f25705b0f48d23fb
+SHA1: 37283ffe54272660cb2a2c4e81d4bbdf72dbf482
+SHA256: c139a79ca5c3e39e85c93e8d604a238ea163d86ef3397d3445c18671b23eb1d6
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 更新内容：
+ ※1、修复了重复路径一直自动重复增加的问题
+ ※2、修复了两个打包器打包错误的问题（非基于生态活动脚本的为 wine 导入错误，基于生态活动脚本的为架构有误导致打包出的 deb 无法打包）
+ ※3、适配了部分非 i386、amd64 架构计算机的 UOS 系统使用的 wine 并支持打包非 i386、amd64 架构计算机的 UOS 系统使用的 wine 程序 deb 包
+ ※4、支持安装 dxvk（遵守 Zlib 开源协议）
+ ※5、运行器、打包器（包括非基于生态适配活动脚本制作的）支持使用 Wine 生态适配活动的容器清理脚本
+ ※6、支持更加简易的安装最新版的 WineHQ
+ ※7、增加字体商店
+ ※8、新增查看可执行文件运行情况的功能
+ 9、支持不显示没有安装的 Wine，方便用户识别
+ 10、修改了 Wine 的顺序使其更加合理
+ 11、支持删除安装 exe 后在启动器的快捷方式
+ 12、优化了 Wine 打包器（非基于生态活动脚本）对容器的处理
+ 13、修复了 Wine 打包器（非基于生态活动脚本）打包出的 deb 安装时显示为解压缩后会消耗 0 B 的额外空间以及 postrm 的一些问题
+ 14、支持删除无需使用的程序组件
+ 15、支持组件/运行库下载后缓存方便下次使用（可以清理）
+ 16、点击获取图标按钮后会自动读取 exe 框的程序图标（不支持相对路径和包内路径，只支持绝对路径）
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+Recommand: toilet
+
+Package: spark-deepin-wine-runner
+Version: 2.1.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 24928
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.1.0_all.deb
+Size: 19130168
+MD5sum: c64b2508e74e5c81e563a1ce2bc39fb6
+SHA1: 738508b0f81e32bf31a9c1d6098499e9a72648a3
+SHA256: b9c6b7b8807863b4e651e72ec67f680acd20bebd9a57e44c723c8bc45d084dba
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 更新内容：
+ ※1、新增新的 Wine 安装器，并支持将安装的 Wine 打包到 Wine 程序 deb 包中
+ ※2、Wine 打包器打包 Windows 应用支持将 Wine 打包入 deb 内，可以不依赖 Wine（一般不推荐把 Wine 打包入内，推荐用依赖的形式），并支持设置自定义依赖和生成模板
+ ※3、开始初步多语言支持
+ ※4、修复了在没有安装任何 Wine 的情况下使用高级功能导致程序闪退的问题
+ ※5、支持云端自动获取数据配置 Wine 容器
+ ※6、支持手动导入配置文件自动配置 Wine 容器
+ ※7、新增从云端下载 Dll 的功能
+ ※8、修复了 Dll 提取工具不会在 winecfg 中添加原装的问题
+ 9、修改错别字（图形话=>图形化）
+ 10、修复评分功能名称为空也可以上传评分的问题
+ 11、去除 toilet 依赖，使在 Deepin 23 Preview 上运行更佳
+ 12、支持删除所有由 Wine 创建的启动器快捷方式
+ 更新时间：2022年08月26日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.1.0-1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 24948
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.1.0-1_all.deb
+Size: 19130860
+MD5sum: 89064d67fadd81bb64f60488c8006577
+SHA1: 7bd401815d843b040c10c61b7b3dfa93e57c488e
+SHA256: 270f597c68e9caaaaead7f62ab70522b859bf4df3ccd61e2709091b2e68f2d27
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.1.0-1 更新内容：
+ ※1、删除多余图标
+ ※2、修复将打包文件生成目录设置为 / 等重要目录导致删库的问题
+ 3、修复了打包器浏览按钮闪退、生成的 postrm 有误的问题
+ 4、支持在输入信息时自动生成 deb 保存路径
+ 2.1.0 更新内容：
+ ※1、新增新的 Wine 安装器，并支持将安装的 Wine 打包到 Wine 程序 deb 包中
+ ※2、Wine 打包器打包 Windows 应用支持将 Wine 打包入 deb 内，可以不依赖 Wine（一般不推荐把 Wine 打包入内，推荐用依赖的形式），并支持设置自定义依赖和生成模板
+ ※3、开始初步多语言支持
+ ※4、修复了在没有安装任何 Wine 的情况下使用高级功能导致程序闪退的问题
+ ※5、支持云端自动获取数据配置 Wine 容器
+ ※6、支持手动导入配置文件自动配置 Wine 容器
+ ※7、新增从云端下载 Dll 的功能
+ ※8、修复了 Dll 提取工具不会在 winecfg 中添加原装的问题
+ 9、修改错别字（图形话=>图形化）
+ 10、修复评分功能名称为空也可以上传评分的问题
+ 11、去除 toilet 依赖，使在 Deepin 23 Preview 上运行更佳
+ 12、支持删除所有由 Wine 创建的启动器快捷方式
+ 更新时间：2022年08月26日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.1.0-2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 24948
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, deepin-elf-verify (>= 1.1.1-1)
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.1.0-2-uos_all.deb
+Size: 19154912
+MD5sum: c437b549b5ad18e8da7d2d4bd810c125
+SHA1: 4cd61f32dd9cde302421a0fc01fd7e6b0cfa5262
+SHA256: 2bd1c1f6f5d52159e648cc6ba32b37d86e1b143a9cda672efe19e7c4103255b2
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器 2.1.0-1 更新内容： ※1、删除多余图标 ※2、修复将打包文件生成目录设置为 / 等重要目录导致删库的问题 3、修复了打包器浏览按钮闪退、生成的 postrm 有误的问题 4、支持在输入信息时自动生成 deb 保存路径 2.1.0 更新内容： ※1、新增新的 Wine 安装器，并支持将安装的 Wine 打包到 Wine 程序 deb 包中 ※2、Wine 打包器打包 Windows 应用支持将 Wine 打包入 deb 内，可以不依赖 Wine（一般不推荐把 Wine 打包入内，推荐用依赖的形式），并支持设置自定义依赖和生成模板 ※3、开始初步多语言支持 ※4、修复了在没有安装任何 Wine 的情况下使用高级功能导致程序闪退的问题 ※5、支持云端自动获取数据配置 Wine 容器 ※6、支持手动导入配置文件自动配置 Wine 容器 ※7、新增从云端下载 Dll 的功能 ※8、修复了 Dll 提取工具不会在 winecfg 中添加原装的问题 9、修改错别字（图形话=>图形化） 10、修复评分功能名称为空也可以上传评分的问题 11、去除 toilet 依赖，使在 Deepin 23 Preview 上运行更佳 12、支持删除所有由 Wine 创建的启动器快捷方式 更新时间：2022年08月26日 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.1.0-2-spark
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 24948
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.1.0-2-spark_all.deb
+Size: 19133092
+MD5sum: 164243fc36af5f941d7bcefb89995a99
+SHA1: 70b9758a03bb1ba630bcaee5a158fc01c2927006
+SHA256: e1b2d3608583712f31f00c90924fd7030b9ec0b000f153fea9ae0a711ada1c81
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.1.0-1 更新内容：
+ ※1、删除多余图标
+ ※2、修复将打包文件生成目录设置为 / 等重要目录导致删库的问题
+ 3、修复了打包器浏览按钮闪退、生成的 postrm 有误的问题
+ 4、支持在输入信息时自动生成 deb 保存路径
+ 2.1.0 更新内容：
+ ※1、新增新的 Wine 安装器，并支持将安装的 Wine 打包到 Wine 程序 deb 包中
+ ※2、Wine 打包器打包 Windows 应用支持将 Wine 打包入 deb 内，可以不依赖 Wine（一般不推荐把 Wine 打包入内，推荐用依赖的形式），并支持设置自定义依赖和生成模板
+ ※3、开始初步多语言支持
+ ※4、修复了在没有安装任何 Wine 的情况下使用高级功能导致程序闪退的问题
+ ※5、支持云端自动获取数据配置 Wine 容器
+ ※6、支持手动导入配置文件自动配置 Wine 容器
+ ※7、新增从云端下载 Dll 的功能
+ ※8、修复了 Dll 提取工具不会在 winecfg 中添加原装的问题
+ 9、修改错别字（图形话=>图形化）
+ 10、修复评分功能名称为空也可以上传评分的问题
+ 11、去除 toilet 依赖，使在 Deepin 23 Preview 上运行更佳
+ 12、支持删除所有由 Wine 创建的启动器快捷方式
+ 更新时间：2022年08月26日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.2.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 26500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, wimtools, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal
+Recommends: winbind
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.2.0_all.deb
+Size: 20149488
+MD5sum: b3a1309749b62c4da9dff32fdf44cf60
+SHA1: 02b40bb28e033b87f08a4c2a4eeed9471c978449
+SHA256: 8c6f10431d58724e9ff59990731bfe9f1f1e738193bae555a63f767b2f868443
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.2.0 更新内容：
+ ※1、Dll 提取工具支持 NT 6.X 及以上版本的 Dll 提取并优化了提示文本
+ ※2、支持卸载后自动删除缓存/配置文件（删除配置文件只限 purge 参数删除）
+ ※3、DEBUG 模式输出更多信息以方便调试（原本只输出 pid、Err）
+ ※4、支持安装 msi 文件
+ ※5、修复无法正常评分的问题
+ ※6、修复 QQ、TIM 安装后无法正常生成快捷方式的问题
+ ※7、基于生态适配活动的打包器更换为 spark-wine-helper 以及添加自动删除残留脚本
+ ※8、打包器支持从 deb 文件读取信息
+ ※9、修复在 UOS 专业版（鲲鹏）无法正常运行的问题以及组件安装功能无法正常执行安装命令的问题
+ ※10、修复出现星火应用商店和官方应用商店反复提示更新死循环的问题
+ ※11、新增评分分数预测功能（不准）
+ ※12、更换程序接口
+ ※13、将 WineHQ 的源换为国内源
+ 14、更新组件安装的离线列表
+ 15、不再强制依赖深度终端，只做推荐安装
+ 16、基于生态活动适配脚本的打包器在打包完成后会弹出对话框提示打包完成
+ 17、优化打包器的 spark wine helper 依赖设置方式
+ 18、新增 RegShot（注册表比对工具）
+ 19、添加 Wine 运行器评分数据的搜索功能
+ 以下更新内容旧版本也适用（只限 2.1.0 及以上版本）：
+ ※1、在“安装更多Wine”的Wine安装工具中上新 Wine
+ ※2、云 Dll 工具上新 Dll
+ ※3、VCPP、net 运行库安装工具新增运行库
+ 更新时间：2022年09月24日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.2.0-spark
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 26500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, wimtools, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal
+Recommends: winbind
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.2.0-spark_all.deb
+Size: 20147616
+MD5sum: 584bc792ea489e238777c425259592f0
+SHA1: c0d05451f88d817bb9cd0e3d6b8ec73342b9ea2e
+SHA256: 6eab2731f595cd89a2d2dbb907435c21784e8014edb421e937ea6ffb8e143e40
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.2.0 更新内容：
+ ※1、Dll 提取工具支持 NT 6.X 及以上版本的 Dll 提取并优化了提示文本
+ ※2、支持卸载后自动删除缓存/配置文件（删除配置文件只限 purge 参数删除）
+ ※3、DEBUG 模式输出更多信息以方便调试（原本只输出 pid、Err）
+ ※4、支持安装 msi 文件
+ ※5、修复无法正常评分的问题
+ ※6、修复 QQ、TIM 安装后无法正常生成快捷方式的问题
+ ※7、基于生态适配活动的打包器更换为 spark-wine-helper 以及添加自动删除残留脚本
+ ※8、打包器支持从 deb 文件读取信息
+ ※9、修复在 UOS 专业版（鲲鹏）无法正常运行的问题以及组件安装功能无法正常执行安装命令的问题
+ ※10、修复出现星火应用商店和官方应用商店反复提示更新死循环的问题
+ ※11、新增评分分数预测功能（不准）
+ ※12、更换程序接口
+ ※13、将 WineHQ 的源换为国内源
+ 14、更新组件安装的离线列表
+ 15、不再强制依赖深度终端，只做推荐安装
+ 16、基于生态活动适配脚本的打包器在打包完成后会弹出对话框提示打包完成
+ 17、优化打包器的 spark wine helper 依赖设置方式
+ 18、新增 RegShot（注册表比对工具）
+ 19、添加 Wine 运行器评分数据的搜索功能
+ 以下更新内容旧版本也适用（只限 2.1.0 及以上版本）：
+ ※1、在“安装更多Wine”的Wine安装工具中上新 Wine
+ ※2、云 Dll 工具上新 Dll
+ ※3、VCPP、net 运行库安装工具新增运行库
+ 更新时间：2022年09月24日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.2.0-uos
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 26500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, wimtools, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal, deepin-elf-verify (>= 1.1.1-1)
+Recommends: winbind
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.2.0-uos_all.deb
+Size: 20169408
+MD5sum: bdec5a827419f9aa468978cdca55dfc7
+SHA1: 0738e05f7dfd13aa42ea13766429bcc25b5d6534
+SHA256: 50cc57ea2c10ca4eba2c3873049b39b3d226b0f0d5e07f72eea1aeeb8c067eb5
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器 2.2.0 更新内容： ※1、Dll 提取工具支持 NT 6.X 及以上版本的 Dll 提取并优化了提示文本 ※2、支持卸载后自动删除缓存/配置文件（删除配置文件只限 purge 参数删除） ※3、DEBUG 模式输出更多信息以方便调试（原本只输出 pid、Err） ※4、支持安装 msi 文件 ※5、修复无法正常评分的问题 ※6、修复 QQ、TIM 安装后无法正常生成快捷方式的问题 ※7、基于生态适配活动的打包器更换为 spark-wine-helper 以及添加自动删除残留脚本 ※8、打包器支持从 deb 文件读取信息 ※9、修复在 UOS 专业版（鲲鹏）无法正常运行的问题以及组件安装功能无法正常执行安装命令的问题 ※10、修复出现星火应用商店和官方应用商店反复提示更新死循环的问题 ※11、新增评分分数预测功能（不准） ※12、更换程序接口 ※13、将 WineHQ 的源换为国内源 14、更新组件安装的离线列表 15、不再强制依赖深度终端，只做推荐安装 16、基于生态活动适配脚本的打包器在打包完成后会弹出对话框提示打包完成 17、优化打包器的 spark wine helper 依赖设置方式 18、新增 RegShot（注册表比对工具） 19、添加 Wine 运行器评分数据的搜索功能 以下更新内容旧版本也适用（只限 2.1.0 及以上版本）： ※1、在“安装更多Wine”的Wine安装工具中上新 Wine ※2、云 Dll 工具上新 Dll ※3、VCPP、net 运行库安装工具新增运行库 更新时间：2022年09月24日 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.3.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 26576
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal
+Recommends: winbind, wimtools
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.3.0_all.deb
+Size: 20151164
+MD5sum: 44f456ef565ddb7d81036a913df20fe2
+SHA1: debf4d8ca4a4362ad2880ea44bf66f7d43b273ba
+SHA256: fd8d47c2b13c21bd22ec4a1a6120181391010b66cc71feaafc4857372a5b5228
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.3.0 更新内容：
+ ※1、自动配置解释器支持 bash 语法（新版底层调用 bash，旧版任然使用旧版解析引擎）
+ ※2、修复缺失 wimtools 依赖导致无法正常安装的问题
+ ※3、修复基于生态适配活动脚本打包器对话框过多影响使用的问题，并支持指定不同的包名和容器名
+ ※4、7z 文件解压不会自动替换文件然后卡死以及因此导致程序闪退的问题
+ ※5、修复安装更多 Wine 终端调用问题和图标问题
+ ※6、支持 openkylin
+ 7、支持通过 exe 路径自动生成 Wine 容器路径
+ 8、支持禁用/启用 wine 容器是否生成快捷方式的功能以及启用/禁用程序崩溃提示对话框
+ 9、支持设置 wine 容器代理
+ 10、自动配置脚本支持使用 --help 参数查看帮助
+ 更新时间：2022年10月02日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.3.0-spark
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 26576
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal
+Recommends: winbind, wimtools
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.3.0-spark_all.deb
+Size: 20152696
+MD5sum: ee536b5d49f151a16a169fbc442dab1e
+SHA1: 5feb377be5bfb64201d3da8d1c9a6441d1c4306e
+SHA256: 364c88fddb6ddf45b755123129c9e7fbeffe962b3159411fe410170646146a45
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.3.0 更新内容：
+ ※1、自动配置解释器支持 bash 语法（新版底层调用 bash，旧版任然使用旧版解析引擎）
+ ※2、修复缺失 wimtools 依赖导致无法正常安装的问题
+ ※3、修复基于生态适配活动脚本打包器对话框过多影响使用的问题，并支持指定不同的包名和容器名
+ ※4、7z 文件解压不会自动替换文件然后卡死以及因此导致程序闪退的问题
+ ※5、修复安装更多 Wine 终端调用问题和图标问题
+ ※6、支持 openkylin
+ 7、支持通过 exe 路径自动生成 Wine 容器路径
+ 8、支持禁用/启用 wine 容器是否生成快捷方式的功能以及启用/禁用程序崩溃提示对话框
+ 9、支持设置 wine 容器代理
+ 10、自动配置脚本支持使用 --help 参数查看帮助
+ 更新时间：2022年10月02日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.3.0-uos
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 26576
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal, deepin-elf-verify (>= 1.1.1-1)
+Recommends: winbind, wimtools
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.3.0-uos_all.deb
+Size: 20169476
+MD5sum: 9240f8079ec16c526a98e5a8e7cd2106
+SHA1: 02430f51801b5d85da7f0ade349d9b7ce9bcd39b
+SHA256: ce07aed527eae6196c4044dee21093dd4be9c5b4be15fa9bdea7e25725aad386
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器 2.3.0 更新内容： ※1、自动配置解释器支持 bash 语法（新版底层调用 bash，旧版任然使用旧版解析引擎） ※2、修复缺失 wimtools 依赖导致无法正常安装的问题 ※3、修复基于生态适配活动脚本打包器对话框过多影响使用的问题，并支持指定不同的包名和容器名 ※4、7z 文件解压不会自动替换文件然后卡死以及因此导致程序闪退的问题 ※5、修复安装更多 Wine 终端调用问题和图标问题 ※6、支持 openkylin 7、支持通过 exe 路径自动生成 Wine 容器路径 8、支持禁用/启用 wine 容器是否生成快捷方式的功能以及启用/禁用程序崩溃提示对话框 9、支持设置 wine 容器代理 10、自动配置脚本支持使用 --help 参数查看帮助 更新时间：2022年10月02日 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.4.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 29616
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal, python3-dbus, python3-pip
+Recommends: winbind, wimtools
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.4.0_all.deb
+Size: 23133192
+MD5sum: 032ed84de6fbb515202f62168d74e584
+SHA1: 0c963e53a96049a7a179bf90d401b1e353ebcf96
+SHA256: 758eb794999be64fcc53f2025717569fc7ff04aebb99ef8589f43ea80665a078
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.4.0 更新内容：
+ ※1、新增 VB Runtime 组件安装工具
+ ※2、优化自动配置容器搜索功能，搜索不区分大小写
+ ※3、新增 Wine 容器快捷键映射功能
+ ※4、修复在 arm 架构运行 Wine 时提示无法解压资源的问题
+ ※5、修复右键无法找到 Wine 运行器打开方式的问题
+ ※6、修复了容器自动配置脚本 GUI 解析器无法指定 Wine、容器以及位数的功能
+ ※7、容器自动配置脚本支持评分功能以及脚本内容介绍功能
+ ※8、支持添加自定义安装的 Wine
+ ※9、打包器打包的 arm 包支持同时支持 UOS 的 box86 和 exagear
+ ※10、提供了 Python 的自动配置脚本 API
+ 更新时间：2022年10月25日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner
+Version: 2.4.0-spark
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 29616
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal, python3-dbus, python3-pip
+Recommends: winbind, wimtools
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner/spark-deepin-wine-runner_2.4.0-spark_all.deb
+Size: 23132840
+MD5sum: 864740932731209b1d03937253d8ae3d
+SHA1: 77d5cec7328ab5fe4139fa32fccc99acca9a49c4
+SHA256: a20e8797d52775f481c3652ebc8bb0eae9cf0500d89a8fa610051a203cd3bd3f
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.4.0 更新内容：
+ ※1、新增 VB Runtime 组件安装工具
+ ※2、优化自动配置容器搜索功能，搜索不区分大小写
+ ※3、新增 Wine 容器快捷键映射功能
+ ※4、修复在 arm 架构运行 Wine 时提示无法解压资源的问题
+ ※5、修复右键无法找到 Wine 运行器打开方式的问题
+ ※6、修复了容器自动配置脚本 GUI 解析器无法指定 Wine、容器以及位数的功能
+ ※7、容器自动配置脚本支持评分功能以及脚本内容介绍功能
+ ※8、支持添加自定义安装的 Wine
+ ※9、打包器打包的 arm 包支持同时支持 UOS 的 box86 和 exagear
+ ※10、提供了 Python 的自动配置脚本 API
+ 更新时间：2022年10月25日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner-52
+Version: 2.0.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 23500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, toilet
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner-52/spark-deepin-wine-runner-52_2.0.0_all.deb
+Size: 16509008
+MD5sum: f055b763f37fd57ac58c241ea96f8986
+SHA1: ac3d491cd03ed742988c671a4c4a32cb6dd51d5b
+SHA256: 5f7357fe83ee701f5daf0723ce635dd79897ed10c4c09f114681f184d2e1ede4
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 更新内容：
+ ※1、修复了重复路径一直自动重复增加的问题
+ ※2、修复了两个打包器打包错误的问题（非基于生态活动脚本的为 wine 导入错误，基于生态活动脚本的为架构有误导致打包出的 deb 无法打包）
+ ※3、适配了部分非 i386、amd64 架构计算机的 UOS 系统使用的 wine 并支持打包非 i386、amd64 架构计算机的 UOS 系统使用的 wine 程序 deb 包
+ ※4、支持安装 dxvk（遵守 Zlib 开源协议）
+ ※5、运行器、打包器（包括非基于生态适配活动脚本制作的）支持使用 Wine 生态适配活动的容器清理脚本
+ ※6、支持更加简易的安装最新版的 WineHQ
+ ※7、增加字体商店
+ ※8、新增查看可执行文件运行情况的功能
+ 9、支持不显示没有安装的 Wine，方便用户识别
+ 10、修改了 Wine 的顺序使其更加合理
+ 11、支持删除安装 exe 后在启动器的快捷方式
+ 12、优化了 Wine 打包器（非基于生态活动脚本）对容器的处理
+ 13、修复了 Wine 打包器（非基于生态活动脚本）打包出的 deb 安装时显示为解压缩后会消耗 0 B 的额外空间以及 postrm 的一些问题
+ 14、支持删除无需使用的程序组件
+ 15、支持组件/运行库下载后缓存方便下次使用（可以清理）
+ 16、点击获取图标按钮后会自动读取 exe 框的程序图标（不支持相对路径和包内路径，只支持绝对路径）
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner-52
+Version: 2.0.0-1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 23500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, toilet, python3-psutil
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner-52/spark-deepin-wine-runner-52_2.0.0-1.deb
+Size: 16509024
+MD5sum: ca919a76115d5e91344ab3150dd4870c
+SHA1: 9a908afd54868eb8360a06b22d891f19a21fc474
+SHA256: 89e5740ace1e3475ab86ec5c08eaba8c6ad07f643d81934100e8f9a56c479eda
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 更新内容：
+ ※1、修复了重复路径一直自动重复增加的问题
+ ※2、修复了两个打包器打包错误的问题（非基于生态活动脚本的为 wine 导入错误，基于生态活动脚本的为架构有误导致打包出的 deb 无法打包）
+ ※3、适配了部分非 i386、amd64 架构计算机的 UOS 系统使用的 wine 并支持打包非 i386、amd64 架构计算机的 UOS 系统使用的 wine 程序 deb 包
+ ※4、支持安装 dxvk（遵守 Zlib 开源协议）
+ ※5、运行器、打包器（包括非基于生态适配活动脚本制作的）支持使用 Wine 生态适配活动的容器清理脚本
+ ※6、支持更加简易的安装最新版的 WineHQ
+ ※7、增加字体商店
+ ※8、新增查看可执行文件运行情况的功能
+ 9、支持不显示没有安装的 Wine，方便用户识别
+ 10、修改了 Wine 的顺序使其更加合理
+ 11、支持删除安装 exe 后在启动器的快捷方式
+ 12、优化了 Wine 打包器（非基于生态活动脚本）对容器的处理
+ 13、修复了 Wine 打包器（非基于生态活动脚本）打包出的 deb 安装时显示为解压缩后会消耗 0 B 的额外空间以及 postrm 的一些问题
+ 14、支持删除无需使用的程序组件
+ 15、支持组件/运行库下载后缓存方便下次使用（可以清理）
+ 16、点击获取图标按钮后会自动读取 exe 框的程序图标（不支持相对路径和包内路径，只支持绝对路径）
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner-52
+Version: 2.0.0-2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 23500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, deepin-terminal, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner-52/spark-deepin-wine-runner-52_2.0.0-2_all.deb
+Size: 16509124
+MD5sum: 19eca07823960969602c8a3c2eea20fc
+SHA1: a5a276382807347a88a37e4a71a3817f093e556a
+SHA256: 8e09690dfe6cb1bb8daaf40cc583d009dc110701be00857467ed149283d6e345
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 更新内容：
+ ※1、修复了重复路径一直自动重复增加的问题
+ ※2、修复了两个打包器打包错误的问题（非基于生态活动脚本的为 wine 导入错误，基于生态活动脚本的为架构有误导致打包出的 deb 无法打包）
+ ※3、适配了部分非 i386、amd64 架构计算机的 UOS 系统使用的 wine 并支持打包非 i386、amd64 架构计算机的 UOS 系统使用的 wine 程序 deb 包
+ ※4、支持安装 dxvk（遵守 Zlib 开源协议）
+ ※5、运行器、打包器（包括非基于生态适配活动脚本制作的）支持使用 Wine 生态适配活动的容器清理脚本
+ ※6、支持更加简易的安装最新版的 WineHQ
+ ※7、增加字体商店
+ ※8、新增查看可执行文件运行情况的功能
+ 9、支持不显示没有安装的 Wine，方便用户识别
+ 10、修改了 Wine 的顺序使其更加合理
+ 11、支持删除安装 exe 后在启动器的快捷方式
+ 12、优化了 Wine 打包器（非基于生态活动脚本）对容器的处理
+ 13、修复了 Wine 打包器（非基于生态活动脚本）打包出的 deb 安装时显示为解压缩后会消耗 0 B 的额外空间以及 postrm 的一些问题
+ 14、支持删除无需使用的程序组件
+ 15、支持组件/运行库下载后缓存方便下次使用（可以清理）
+ 16、点击获取图标按钮后会自动读取 exe 框的程序图标（不支持相对路径和包内路径，只支持绝对路径）
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+Recommand: toilet
+
+Package: spark-deepin-wine-runner-52
+Version: 2.2.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 26500
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, wimtools, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal
+Recommends: winbind
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./spark-deepin-wine-runner-52/spark-deepin-wine-runner-52_2.2.0_all.deb
+Size: 20149456
+MD5sum: b92310e87861a3894df8d17f2897ee2e
+SHA1: 62b523b6d53e7da476ff98e5adbedbd206d10e9d
+SHA256: bef0c4319883b77954a486d5b96ef7fda43f2519cb6e6b7efde917d4e412b442
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.2.0 更新内容：
+ ※1、Dll 提取工具支持 NT 6.X 及以上版本的 Dll 提取并优化了提示文本
+ ※2、支持卸载后自动删除缓存/配置文件（删除配置文件只限 purge 参数删除）
+ ※3、DEBUG 模式输出更多信息以方便调试（原本只输出 pid、Err）
+ ※4、支持安装 msi 文件
+ ※5、修复无法正常评分的问题
+ ※6、修复 QQ、TIM 安装后无法正常生成快捷方式的问题
+ ※7、基于生态适配活动的打包器更换为 spark-wine-helper 以及添加自动删除残留脚本
+ ※8、打包器支持从 deb 文件读取信息
+ ※9、修复在 UOS 专业版（鲲鹏）无法正常运行的问题以及组件安装功能无法正常执行安装命令的问题
+ ※10、修复出现星火应用商店和官方应用商店反复提示更新死循环的问题
+ ※11、新增评分分数预测功能（不准）
+ ※12、更换程序接口
+ ※13、将 WineHQ 的源换为国内源
+ 14、更新组件安装的离线列表
+ 15、不再强制依赖深度终端，只做推荐安装
+ 16、基于生态活动适配脚本的打包器在打包完成后会弹出对话框提示打包完成
+ 17、优化打包器的 spark wine helper 依赖设置方式
+ 18、新增 RegShot（注册表比对工具）
+ 19、添加 Wine 运行器评分数据的搜索功能
+ 以下更新内容旧版本也适用（只限 2.1.0 及以上版本）：
+ ※1、在“安装更多Wine”的Wine安装工具中上新 Wine
+ ※2、云 Dll 工具上新 Dll
+ ※3、VCPP、net 运行库安装工具新增运行库
+ 更新时间：2022年09月24日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine-runner-52
+Version: 2.3.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Installed-Size: 26576
+Depends: python3, python3-pil, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar, unzip, python3-requests, fakeroot, bash, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal
+Recommends: winbind, wimtools
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer
+Filename: ./spark-deepin-wine-runner-52/spark-deepin-wine-runner-52_2.3.0_all.deb
+Size: 20152628
+MD5sum: 11240f1d346b0803a4c8395bea218c7a
+SHA1: a9e9fca398f5ab06c31bd9923292e37cefbb937c
+SHA256: cbec2a39c3881476804bc555c4babf05768c63acfbc7f8d28cfaf7b35c541217
+Section: utils
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner, https://github.com/gfdgd-xi/deep-wine-runner, https://gitlink.org.cn/gfdgd_xi/deep-wine-runner
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 2.3.0 更新内容：
+ ※1、自动配置解释器支持 bash 语法（新版底层调用 bash，旧版任然使用旧版解析引擎）
+ ※2、修复缺失 wimtools 依赖导致无法正常安装的问题
+ ※3、修复基于生态适配活动脚本打包器对话框过多影响使用的问题，并支持指定不同的包名和容器名
+ ※4、7z 文件解压不会自动替换文件然后卡死以及因此导致程序闪退的问题
+ ※5、修复安装更多 Wine 终端调用问题和图标问题
+ ※6、支持 openkylin
+ 7、支持通过 exe 路径自动生成 Wine 容器路径
+ 8、支持禁用/启用 wine 容器是否生成快捷方式的功能以及启用/禁用程序崩溃提示对话框
+ 9、支持设置 wine 容器代理
+ 10、自动配置脚本支持使用 --help 参数查看帮助
+ 更新时间：2022年10月02日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+
+Package: spark-deepin-wine5-application-packer
+Version: 1.0.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 40
+Depends: python3, python3-tk
+Filename: ./spark-deepin-wine5-application-packer/spark-deepin-wine5-application-packer_1.0.0_all.deb
+Size: 42132
+MD5sum: e85c2b288e9fb3b207dc19e9f795c9f6
+SHA1: 12a10e65ec0dea65ae8bb55d08411d964bc56bf0
+SHA256: 98e93c9c712ab3eaf5293f77427355dc1bfbf27a9eaa7c5f80378844e56e782f
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine5-application-packer
+Description: gfdgd xi make's deepin-wine5 application packer
+
+Package: spark-deepin-wine5-application-packer
+Version: 1.0.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 40
+Depends: python3, python3-tk, python3-pip
+Filename: ./spark-deepin-wine5-application-packer/spark-deepin-wine5-application-packer_1.0.1_all.deb
+Size: 42224
+MD5sum: 4ef08a13cac6c0b0c43fa0ebce83510f
+SHA1: dc626de615e205c59151dbf6a8115e3d6ac8f493
+SHA256: 6469ec69f15ebcb7d9c9f3325c18b10a4e929b4f44330e9f33b40c28447a010c
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/deep-wine5-application-packer
+Description: gfdgd xi make's deepin-wine5 application packer
+
+Package: spark-dwine-helper-settings
+Version: 1.1
+Architecture: all
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 108
+Depends: spark-dwine-helper(>=1.6)
+Filename: ./spark-dwine-helper-settings/spark-dwine-helper-settings_1.1_all.deb
+Size: 50252
+MD5sum: 1913f22e853b762c6147e473a3c185e2
+SHA1: 31f0937c5ccd6effc7aaf2009b47a2ac1fd7b70f
+SHA256: 8e7b6f373fc19be92f3d8cfac1ed087e8ef1adcddd123d0b86a27d54046048f9
+Section: utils
+Priority: extra
+Multi-Arch: foreign
+Homepage: https://gitee.com/deepin-community-store/spark-wine
+Description: Spark Deepin Wine Helper
+
+Package: spark-optical-drive-tray-control
+Version: 1.0.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Filename: ./spark-optical-drive-tray-control/spark-optical-drive-tray-control_1.0.2_all.deb
+Size: 65332784
+MD5sum: 828ef7fe4c738869365fb8db9f75acba
+SHA1: 63f296cc3204adbb691b5bf6054707daaf3412e4
+SHA256: 60bb411104e34419483c90aa0c5a5351a0b0fddd6d6122d350b5a201c106d729
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/optical-drive-tray-control
+Description: 一款基于 Python3 的 PyQt 制作成的光驱托盘控制软件
+
+Package: spark-simple-remote-desktop-accessor
+Version: 1.2.0
+Architecture: amd64
+Maintainer: gfdgd xi<3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: libdtkcore5, libdtkwidget5, libdtkgui5, rdesktop
+Filename: ./spark-simple-remote-desktop-accessor/spark-simple-remote-desktop-accessor_1.2.0.deb
+Size: 485896
+MD5sum: 5cf5c9d5da9425c60628fa8586141097
+SHA1: f13226ac2f7f2ee2dd749311df690236ffb0e4e9
+SHA256: ee5adc6b3664bbcd3deb325cb11f05648cb0b7d39769b01001bca08b7d52f824
+Description: 一个基于 dtk 制作的一个简易远程桌面连接软件
+
+Package: spark-simple-remote-desktop-accessor
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: gfdgd xi<3025613752@qq.com>, 为什么您不喜欢熊出没和阿布呢
+Depends: libdtkcore5, libdtkwidget5, libdtkgui5, rdesktop, curl, libhogweed4, libnettle6
+Filename: ./spark-simple-remote-desktop-accessor/spark-simple-remote-desktop-accessor_1.2.0-1.deb
+Size: 486000
+MD5sum: 42f94d590c632adbd7a6e1cc11fcd673
+SHA1: 290f53d63d567280d7e0f584c74f39fdc8597908
+SHA256: 7dc8452b2c072d33029a7dfea4879401493fcd75d6748c4a48094718f0f40ad2
+Description: 一个基于 dtk 制作的一个简易远程桌面连接软件
+
+Package: spark-store
+Version: 3.1.4-2
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 4925
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.11.3.2), libqt5webenginewidgets5 (>= 5.11.3.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), curl, dde-qt5integration, bubblewrap, aria2
+Recommends: apt-fast
+Filename: ./spark-store/spark-store_3.1.2_amd64.deb
+Size: 2548488
+MD5sum: b689d8dc6a6bf3cd0a085a927cb4db06
+SHA1: aecba87a6c22bd670fe0eb747795c6efb9852afa
+SHA256: 8f1e108620ec543fd8c9ddffab81d56ae85a61cc926226e7c842214a660e2fe6
+Section: utils
+Priority: optional
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Version: 3.1.5
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 4926
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.11.3.2), libqt5webenginewidgets5 (>= 5.11.3.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), curl, dde-qt5integration, bubblewrap, aria2
+Recommends: apt-fast
+Filename: ./spark-store/spark-store_3.1.5_amd64.deb
+Size: 2548448
+MD5sum: 4f042017bcef66b67161772bb02ec22d
+SHA1: 5d9e8c611ac14d6d820a5856588982a95dad22ed
+SHA256: 57236503d8db2d69cea328b176f51ef7832f149af84e342e7c3a68f65df7a42a
+Section: utils
+Priority: optional
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Version: 3.2.1
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 4960
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), curl, openssl, dde-qt5integration, bubblewrap, aria2, gcc
+Recommends: apt-fast
+Filename: ./spark-store/spark-store_3.2.1_amd64.deb
+Size: 2559548
+MD5sum: b615f25c43f266bf6e74af9bdf4ed663
+SHA1: 2d789382215c150a06a357e4492815720cc75116
+SHA256: 245557d4cf1e1a818469fcff8364b0103b9948b57aa90cecd050c287358e02f3
+Section: utils
+Priority: optional
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Version: 3.2.2
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 4965
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), curl, openssl, dde-qt5integration, bubblewrap, aria2, gcc
+Recommends: apt-fast
+Filename: ./spark-store/spark-store_3.2.2_amd64.deb
+Size: 2560880
+MD5sum: 45ece4c3d657a27397ef40698cd3aedd
+SHA1: bea79ecf57f6b8d5fc46fbb197013175fa327e58
+SHA256: db34ef1aeae73e1aac7763508e62d0bf420a2f69263f7c00ccee73b159514142
+Section: utils
+Priority: optional
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Version: 3.2.4~test3
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 4964
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), curl, openssl, dde-qt5integration, bubblewrap, aria2, gcc
+Recommends: apt-fast
+Filename: ./spark-store/spark-store_3.2.4~test3_amd64.deb
+Size: 2561828
+MD5sum: e236013aa1449b2480194d35da60d0c8
+SHA1: c34393ed6ef326e966548f8da59e0654582730fd
+SHA256: 9d31e964665df839cebfb45b430519dccf41a8b28480f192ed42c0a099d39c12
+Section: utils
+Priority: optional
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Version: 3.3
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 4977
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), curl, openssl, libssl-dev, dde-qt5integration, bubblewrap, aria2, gcc, zenity
+Recommends: apt-fast
+Filename: ./spark-store/spark-store_3.3_amd64.deb
+Size: 2564924
+MD5sum: 3b953b84e863523befeae71e7c90d5f8
+SHA1: 83dd9dda6c3e0446cf832fd0a564d3c0034a97fc
+SHA256: 6b1c38e928890856599e12b93141541b05b0f155e3ec18c44b2aed798b939255
+Section: utils
+Priority: optional
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Version: 3.3.0.1
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 4977
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), curl, openssl, libssl-dev, dde-qt5integration, bubblewrap, aria2, gcc, zenity
+Recommends: apt-fast
+Filename: ./spark-store/spark-store_3.3.0.1_amd64.deb
+Size: 2565756
+MD5sum: 207c0889db437785b1cf5101d10fc936
+SHA1: fddf26fafc621e202070c711e6c56d81704d7992
+SHA256: d33866e07fe0352d9ab465442b9f6a321d4cbce20866674475b20a860dd18ca3
+Section: utils
+Priority: optional
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Version: 3.3.0.3
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 4977
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), curl, openssl, libssl-dev, dde-qt5integration, bubblewrap, aria2, gcc, zenity
+Recommends: apt-fast
+Filename: ./spark-store/spark-store_3.3.0.3_amd64.deb
+Size: 2565540
+MD5sum: 78507cf804a05b3d688cd236d026920e
+SHA1: b915eec7b0c0d8dac0547803313821f729406717
+SHA256: 7497a228f37e9c564eb80bf67ac6c1573249bf3b149c006966071d37ce959fc4
+Section: utils
+Priority: optional
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Version: 3.3.0.4
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 4977
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), curl, openssl, libssl-dev, dde-qt5integration, bubblewrap, aria2, gcc, zenity
+Recommends: apt-fast
+Filename: ./spark-store/spark-store_3.3.0.4_amd64.deb
+Size: 2566548
+MD5sum: c2844553c4fafe23f5ff5256cdeef745
+SHA1: 72ec250876050a0de1b77bf4db20e24107acec01
+SHA256: 5d310cad35dcbebec803e98acc8541041056570ae04619b2a81a5ffe6d05e2c7
+Section: utils
+Priority: optional
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store-audit-reminder
+Version: 1.0.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip, python3-setuptools
+Filename: ./spark-store-audit-reminder/spark-store-audit-reminder_1.0.0.deb
+Size: 64204
+MD5sum: 5b12464f937f0b24b8966719921bbd89
+SHA1: 9905873aece044a8327c600077effac345b9da90
+SHA256: a78865b1ce21713bf25ff8f625f668ccdce746f8869c6a35c26eed018cd4cc5d
+Priority: optional
+Description: 星火应用商店审核提醒
+
+Package: spark-store-console
+Version: 1.2.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-pip, fbi, wget, apt, dpkg
+Filename: ./spark-store-console/spark-store-console_1.2.0.deb
+Size: 7620
+MD5sum: 0701924fa4b345614596e11c4806795a
+SHA1: 98af661f366bea2bbfd34d33bcd615fc5663ce2f
+SHA256: b0f993cbc6668bb1a40abaf6a5703543531905078ac85e3300e9748f97924d91
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/spark-store-console
+Description: 一个星火应用商店的第三方客户端，为的是可以在更多发行版运行（dtk 不能运行在很多发行版上）
+
+Package: spark-store-console
+Version: 1.2.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-pip, fbi, wget, apt, dpkg
+Filename: ./spark-store-console/spark-store-console_1.2.1_all.deb
+Size: 9224
+MD5sum: 39b575658448c7bf29fcf2eabab92e6b
+SHA1: 91c3e2554a5094149490e615fdde1974f62b565d
+SHA256: c0d95afc4212c91e689f907be077bbef3f4781fb1da90eb416b37bf8b9025507
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/spark-store-console
+Description: 一个星火应用商店的第三方客户端，为的是可以在更多发行版运行（dtk 不能运行在很多发行版上）
+
+Package: spark-store-console
+Version: 1.2.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-pip, fbi, wget, apt, dpkg, python3-requests
+Filename: ./spark-store-console/spark-store-console_1.2.2_all.deb
+Size: 11084
+MD5sum: ed05fce56b46cb100cb05490a9582e61
+SHA1: b6b1e484a80986ff74cc3993fc95f7671cdccc40
+SHA256: e789d0378a1f06135de1f309b60d4c2f35a1d6d75e93352aed497e53eb2b90c0
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/spark-store-console
+Description: 一个星火应用商店的第三方客户端，为的是可以在更多发行版运行（dtk 不能运行在很多发行版上）
+
+Package: spark-uengine-apk-builder
+Version: 1.0.0beta
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt
+Filename: ./spark-uengine-apk-builder/spark-uengine-apk-builder_1.0.0.deb
+Size: 16552
+MD5sum: 56590f5f2b4f5c9f1919f5a861e34841
+SHA1: eb4d302b8c4db0d0262c83931d1486578e3dbb0e
+SHA256: db10176c8339d4269147465c17f110fe5caf2c43e1ed39da50dc5ef1ffb9c413
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-apk-builder
+Description: gfdgd xi make's uengine apk builder
+
+Package: spark-uengine-apk-builder
+Version: 1.0.0beta1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt
+Filename: ./spark-uengine-apk-builder/spark-uengine-apk-builder_1.0.0-beta1.deb
+Size: 16556
+MD5sum: 21adc4cf635512dde5e2012f876bafaa
+SHA1: eb36a613900f96b8a9e391de9ebfab937b24f6e4
+SHA256: bc033ae68b4ea73690264c6c0721c11231fe0f0965306db35d2550092e4b47a9
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-apk-builder
+Description: gfdgd xi make's uengine apk builder
+
+Package: spark-uengine-runner
+Version: 1.0.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, adb, python3-pip
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.0.0.deb
+Size: 15380
+MD5sum: b83527e66efe4d96587f5553277c51a4
+SHA1: 569dfa1abce7e2c3c11d9302c6eb47e8ec8ed1a2
+SHA256: 0964c5c1638bcb837d66371b998dc3163fa8c6f48b4a1f384890c8b1216a945f
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: gfdgd xi make's uengine runner
+
+Package: spark-uengine-runner
+Version: 1.1.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, adb, python3-pip
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.1.0_all.deb
+Size: 16152
+MD5sum: 70d9fd31a69df2bebd411e2e1840faf7
+SHA1: aa35dd1f5cac132a4675f7daa6d630e469d0bf3d
+SHA256: 8a4a676b33d6e26c4e8c77eb406f1e5e679468cd039e87626179a5ed6b963c1f
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: gfdgd xi make's uengine runner
+
+Package: spark-uengine-runner
+Version: 1.2.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, adb, python3-pip, aapt
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.2.0.deb
+Size: 17572
+MD5sum: 1a6a6b6dc5cfb0ddbaff8443e3a55e92
+SHA1: 7554abe2b0dca17c40b019d255d667d46a3b5de9
+SHA256: 024e7e66ba4fbf56e2e771be7d62fbe8854e61a8e9644f0f9c27daafc2ee433a
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: gfdgd xi make's uengine runner
+
+Package: spark-uengine-runner
+Version: 1.2.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.2.1.deb
+Size: 17468
+MD5sum: d3e9069181083fd2a0935b6b7a15d070
+SHA1: dd8eb6b5bf1f9c59fe842785c6df429e3d2bebd9
+SHA256: d904f52e645098805d884575808876d8bc5fd9486d6208375a83356787268ff0
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: gfdgd xi make's uengine runner
+
+Package: spark-uengine-runner
+Version: 1.2.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.2.2.deb
+Size: 17084
+MD5sum: 8a877b2438038568499cfa2bdc93bdc8
+SHA1: 32574ad8d198640ca8706023030905cbda8dea3b
+SHA256: d9bb617a48c1f87acbb71fc10094016e75a88d2001cd51d41ddacdef4697ade9
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: gfdgd xi make's uengine runner
+
+Package: spark-uengine-runner
+Version: 1.2.2test
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.2.2-test_all.deb
+Size: 16780
+MD5sum: 0c6641f738dc53da4606ccbb0992ec75
+SHA1: 39bfc8a6b0eb6dc2e4cab7a564468f89227eb1f2
+SHA256: dfd96fc0205f14c34e5a0505cc8c0fa0d981b23358f60b80c5900e9aa077699c
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: gfdgd xi make's uengine runner
+
+Package: spark-uengine-runner
+Version: 1.2.3
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil, python3-pil.imagetk
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.2.3_all.deb
+Size: 17092
+MD5sum: 92cd3e9b779043caecce9f7865189134
+SHA1: 48243c8bc8423ea85e3732a43bf704d6fe3335fb
+SHA256: fcd9eff9df3eab3e98cd038ae6bad0ca2f00a070545b34533600628c93823f56
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: gfdgd xi make's uengine runner
+
+Package: spark-uengine-runner
+Version: 1.3.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.3.0_all.deb
+Size: 21188
+MD5sum: aa2c174f9ec1d7e83479449f799b81cb
+SHA1: d5890d7b366443a84637f28f5f5f7f399dd25d18
+SHA256: 9e48ea4c100278c844ee9815a69589a9c2d2923bdd9b72b4cf0903913f29e9e2
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: gfdgd xi make's uengine runner
+
+Package: spark-uengine-runner
+Version: 1.3.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil, python3-setuptools
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.3.1_all.deb
+Size: 314944
+MD5sum: bc40789081483186a8728e48049d8b78
+SHA1: 9fcade4af16d4bb0eaca4b793f22a4b42516c08c
+SHA256: 8ac391723722d53dd57777794a4257625afc3d4671b9987c13f8525369e3ee15
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: gfdgd xi make's uengine runner
+
+Package: spark-uengine-runner
+Version: 1.3.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil, python3-setuptools
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.3.2_all.deb
+Size: 318616
+MD5sum: b2c053eff118191158f6ea92bfa729c9
+SHA1: b7f962854f4d6d05ec6aeda741367ca2ed548df9
+SHA256: e40ecdc4641fccda4558933637d3ef9918c261240c6733189312bc067f3245db
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: uengine runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.4.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil, python3-setuptools
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.4.0_all.deb
+Size: 325760
+MD5sum: 50c1542ae276dcc8f6b5313d9c6421db
+SHA1: e50c8f852cfa959edc5e7c7b1a75222b2d9cde98
+SHA256: dafaeba69a68e15541bcf7909a52afb0613ffdb713233189dd79c6f790029c2d
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: uengine runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.4.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil, python3-setuptools
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.4.1_all.deb
+Size: 327636
+MD5sum: ed119f86d351fbaa0776b4751123e2ed
+SHA1: c35400bd886ef24361c44c1fb7a5d2987935ede0
+SHA256: 004a7ebdc96d44df0ba1804aa02931230e8cf095fa582720109bf4d47b093191
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: uengine runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.4.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil, python3-setuptools, deepin-terminal
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.4.2_all.deb
+Size: 329968
+MD5sum: 22cf2ee0d99ccc4a750df6e95bd0ff83
+SHA1: c91b4970d7ede247bc7968422120527e6d4f294f
+SHA256: a0412ac8c8b80fc130f93537623a68ae3f2176e498ce3ccf6278ae89c980526e
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.4.3
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil, python3-setuptools, deepin-terminal
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_1.4.3_all.deb
+Size: 331068
+MD5sum: 1ea67e5557f5eff2f0f15441ff23bc66
+SHA1: c841aa2930edfafa483de304a71f6d60e794dca9
+SHA256: 13701b5d662742536a4a99f8f30288a204b5e2f51236962aa3fed1aa45e5fce5
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.4.3
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil, python3-setuptools, deepin-terminal
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.4.3_all.deb
+Size: 331068
+MD5sum: 1ea67e5557f5eff2f0f15441ff23bc66
+SHA1: c841aa2930edfafa483de304a71f6d60e794dca9
+SHA256: 13701b5d662742536a4a99f8f30288a204b5e2f51236962aa3fed1aa45e5fce5
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.5.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-pil, python3-setuptools, deepin-terminal
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.5.0_all.deb
+Size: 332536
+MD5sum: 7ff9614913580dfd4294225b56267c19
+SHA1: 0e3d775511a2bf8f267df8db843eb70344b5efa6
+SHA256: f5acba93a0348479c42c4c23d6f54031ff632adfab4382a3cd49f9cdec2159e4
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.5.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.5.1.deb
+Size: 338720
+MD5sum: 5e0128420c4d91c6ae9da1202e27625b
+SHA1: 428235f3650888ab81f8f15a74da8f31d096b015
+SHA256: 4e6401898de1f41286c2814d74511e21267229b6294fa8b42e985e9dc4377cc5
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.5.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.5.2_all.deb
+Size: 339584
+MD5sum: ecc0ebbe328099b175e1e9c3c13768f5
+SHA1: 437ce74b4e35be0bb74fb0d366d6e2c1e377365c
+SHA256: 21aa0f73511f7204c0b059ead34bb6c0725e653229d5113291962ac1e743f04b
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.5.3
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.5.3_all.deb
+Size: 339796
+MD5sum: edbe8b307881814d616ddd142b96f823
+SHA1: 6231c169710b65c8c6ce762f0f927fee53a0f6d4
+SHA256: fb1150a689964ee52d38540af614d0630e86c873634bbf93beb8e7f9e8fe829b
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.6.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>
+Depends: python3, python3-tk, python3-pip, aapt, uengine, python3-setuptools, deepin-terminal, curl, python3-pil, python3-pil.imagetk, python3-requests, adb, translate-shell, python3-xlib, fonts-noto-cjk, python3-numpy, python3-matplotlib, wget
+Conflicts: com.gitee.uengine.runner.spark, spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.6.0_all.deb
+Size: 1277148
+MD5sum: eb88a82b3bdf1ab4f324f757a00250ee
+SHA1: 6a975687ff70d9fb800d82539c8ef7dc08261d8a
+SHA256: 089dc17428e3c75e17cb9fe822626e77291c5ff2a14529c8ac117f0e86d46693
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine Runner for deepin and UOS
+
+Package: spark-uengine-runner
+Version: 1.6.2Alpha2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>, actionchen<917981399@qq.com>, 柚子<https://gitee.com/Limexb>, 为什么您不喜欢熊出没和阿布呢<https://weibo.com/u/7755040136>, 星空露光<https://gitee.com/Cynorkyle>, shenmo<jifengshenmo@outlook.com>
+Depends: com.gitee.uengine.runner.spark(>=1.6.2Alpha1)
+Conflicts: spark-uengine-apk-builder
+Filename: ./spark-uengine-runner/spark-uengine-runner_1.6.2Alpha2_all.deb
+Size: 972
+MD5sum: 496bbe83b8cd755fd58d7220969099df
+SHA1: 5a5b44fb5694f0845816e52110484cc900b9f6a0
+SHA256: d6a3ea2884db65485ba26182378b0f0d1622b819006b8de9d7264cf8857cbb40
+Section: oldlibs
+Priority: optional
+Homepage: [https://gitee.com/gfdgd-xi/uengine-runner, https://github.com/gfdgd-xi/uengine-runner]
+Description: UEngine 运行器，此包只做升级过渡使用
+
+Package: spark-webapp-runtime
+Version: 1.6.4
+Architecture: amd64
+Maintainer: shenmo <shenmo@spark-app.store>
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libqt5webengine5 (>= 5.11.0~rc1), libqt5webenginewidgets5 (>= 5.11.0~rc1), libqt5concurrent5 (>= 5.11.0~rc1), libqt5svg5 (>= 5.11.0~rc1), libdtkcore5, libdtkwidget5, libdtkgui5
+Filename: ./spark-webapp-runtime/spark-webapp-runtime_1.6.4_amd64.deb
+Size: 146492
+MD5sum: 14a13b564a94c2c3ccf9f7ed15fec4cc
+SHA1: 6cddda152fdc1202bc1bdfc97202ea7b1e548305
+SHA256: ef1cc51c370b35326e846846347089521785ca7ebd7cc0056a3da18cd12406f2
+Section: utils
+Priority: optional
+Description: Spark WebApp Runtime
+ A simple solution for packaging web apps.
+
+Package: spark-webapp-runtime-runner
+Version: 1.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 44
+Depends: python3, python3-tk, spark-webapp-runtime
+Filename: ./spark-webapp-runtime-runner/spark-webapp-runtime-runner_1.0_all.deb
+Size: 3388
+MD5sum: 7e9f9ad3c3f71998df62ee7a4c10fc5b
+SHA1: 4ee26a85c9e11dc9bc8a5e7318ac60d529196359
+SHA256: b0c1b63a34cae010d360b6e77854808e1a68a73a4c5a2c5cc8098445cddba80e
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/spark-webapp-runtime-runner/
+Description: gfdgd xi make's spark-webapp-runtime-runner
+
+Package: spark-webapp-runtime-runner
+Version: 1.0.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 44
+Depends: python3, python3-tk, spark-webapp-runtime
+Filename: ./spark-webapp-runtime-runner/spark-webapp-runtime-runner_1.0.1_all.deb
+Size: 3428
+MD5sum: 8d93ee9d9e9ef0614e1d8c25db755a32
+SHA1: 1498e06e3d1df9cd0a42394433d27ccdf7163ad5
+SHA256: 5a2b4183904adf2018b2e9c551c3c687451e51bf2f1046959be2eb8574d21020
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/spark-webapp-runtime-runner/
+Description: gfdgd xi make's spark-webapp-runtime-runner
+
+Package: spark-webapp-runtime-runner
+Version: 1.0.2
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 44
+Depends: python3, python3-tk, spark-webapp-runtime
+Filename: ./spark-webapp-runtime-runner/spark-webapp-runtime-runner_1.0.2_all.deb
+Size: 11648
+MD5sum: f01201d7c945bceb753ad0c5101df0bb
+SHA1: a9e6a71881b774b28b541289b196579dc165bb7e
+SHA256: ea2e8adf69325f72f4c0a10e3ca61c15e579c699425d125918b0634907b96803
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/spark-webapp-runtime-runner/
+Description: gfdgd xi make's spark-webapp-runtime-runner
+
+Package: spark-webapp-runtime-runner
+Version: 1.1.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>、为什么您不喜欢熊出没和阿布呢
+Depends: spark-webapp-runtime, libdtkcore5, libdtkwidget5, libdtkgui5, curl
+Filename: ./spark-simple-remote-desktop-accessor/spark-webapp-runtime-runner_amd64_1.1.0.deb
+Size: 42052
+MD5sum: 2bb9490520946dcc6f6c605016e8b1e8
+SHA1: 60cb06e03813f5a6693736494d412038f90124de
+SHA256: 9289e75536463a855db7997201ddb1248256312c77c6544d765c57b8bc8f5f5a
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/spark-webapp-runtime-runner/
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的spark-webapp-runtime-runner
+
+Package: spark-webapp-runtime-runner
+Version: 1.1.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>、为什么您不喜欢熊出没和阿布呢
+Depends: spark-webapp-runtime, libdtkcore5, libdtkwidget5, libdtkgui5, curl
+Filename: ./spark-webapp-runtime-runner/spark-webapp-runtime-runner_amd64_1.1.0.deb
+Size: 42052
+MD5sum: 2bb9490520946dcc6f6c605016e8b1e8
+SHA1: 60cb06e03813f5a6693736494d412038f90124de
+SHA256: 9289e75536463a855db7997201ddb1248256312c77c6544d765c57b8bc8f5f5a
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/spark-webapp-runtime-runner/
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的spark-webapp-runtime-runner
+
+Package: spark.deepin-venturi-setter
+Version: 1.0
+Architecture: amd64
+Maintainer: gfdgd xi<3025613752@qq.com>
+Depends: libdtkcore5, libdtkwidget5, libdtkgui5, python3
+Filename: ./spark-deepin-wine-venturi-setter/spark-deepin-wine-venturi-setter_1.0.0.deb
+Size: 50852
+MD5sum: bc00152c250714b12028e923a7976b3f
+SHA1: 62c0fb2fb699d0fbb5d1994af47823493ef288ed
+SHA256: 54a8a309b5cc0e45eac8c11b1d3e42e191c37cbbd18cd0b54dd02475e947431c
+Description: 一个基于 dtk 和 python3 制作的一个 deepin wine 文管设置工具
+
+Package: spark.gitee.timer
+Version: 1.0
+Architecture: amd64
+Maintainer: gfdgd xi<3025613752@qq.com>
+Depends: libdtkcore5, libdtkwidget5, libdtkgui5
+Filename: ./spark.gitee.timer/spark.gitee.timer_1.0.deb
+Size: 12904
+MD5sum: 8a0c91bb5a338e30974ee348d1e38afe
+SHA1: 4ad66aab2ae73e9cad69451e3a7cfbab0dc9ce0d
+SHA256: 6e9948a1048499dd540770f14b1b00920dbfcbff06c6e7ab595044c88ad5e7cd
+Description: 一个基于 dtk 制作的一个倒计时软件
+
+Package: tk8.6-blt2.5
+Source: blt
+Version: 2.5.3+dfsg-4
+Architecture: amd64
+Maintainer: Sergei Golovan <sgolovan@debian.org>
+Installed-Size: 1995
+Depends: libc6 (>= 2.14), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), libx11-6
+Suggests: blt-demo
+Conflicts: blt4.2, blt8.0, blt8.0-unoff
+Breaks: blt (<< 2.5.3-5~)
+Replaces: blt (<< 2.5.3-5~), blt-demo (<< 2.4i-1), blt-dev (<< 2.4z-3), blt4.2, blt8.0, blt8.0-unoff
+Filename: ./tk8.6-blt2.5/tk8.6-blt2.5_2.5.3+dfsg-4_amd64.deb
+Size: 588604
+MD5sum: 35ab230eda16c3f17866361116a59121
+SHA1: 6a3c21cca19beaa9f468759ef4f996e6474ac567
+SHA256: dfc7f6b1d80bf65c31c9effcec0136ef6634c4c7a08000bf59a7fd0a25cb8c19
+Section: libs
+Priority: optional
+Homepage: http://blt.sourceforge.net/
+Description: graphics extension library for Tcl/Tk - library
+ BLT is a library of useful extensions for the Tcl language and the
+ popular Tk graphical toolkit.  It adds a vector and tree data type,
+ background execution and some debugging tools to Tcl, and provides
+ several new widgets for Tk, including graphs, bar-charts, trees, tabs,
+ splines and hyper-links, as well as a new geometry manager, drag &
+ drop support, and more.
+ .
+ This package contains everything you need to use BLT with your Tcl/Tk
+ scripts and Tcl/Tk-enabled apps.
+
+Package: tk8.6-blt2.5
+Source: blt
+Version: 2.5.3+dfsg-4~winerunner
+Architecture: amd64
+Maintainer: Sergei Golovan <sgolovan@debian.org>
+Installed-Size: 1979
+Depends: libc6 (>= 2.14), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), libx11-6
+Suggests: blt-demo
+Conflicts: blt4.2, blt8.0, blt8.0-unoff
+Breaks: blt (<< 2.5.3-5~)
+Replaces: blt (<< 2.5.3-5~), blt-demo (<< 2.4i-1), blt-dev (<< 2.4z-3), blt4.2, blt8.0, blt8.0-unoff
+Filename: ./tk8.6-blt2.5/tk8.6-blt2.5_2.5.3+dfsg-4~winerunner_amd64.deb
+Size: 585192
+MD5sum: 9d2f5402ee65e244f72d0cf6f57e5caa
+SHA1: a7cb65b88d29f37538efaa92b558854f33591319
+SHA256: 01081ed74cc664842262fdffe8560af28bb31cb5639a5fb3df20c60dde9aa6ea
+Section: libs
+Priority: optional
+Homepage: http://blt.sourceforge.net/
+Description: graphics extension library for Tcl/Tk - library
+ BLT is a library of useful extensions for the Tcl language and the
+ popular Tk graphical toolkit.  It adds a vector and tree data type,
+ background execution and some debugging tools to Tcl, and provides
+ several new widgets for Tk, including graphs, bar-charts, trees, tabs,
+ splines and hyper-links, as well as a new geometry manager, drag &
+ drop support, and more.
+ .
+ This package contains everything you need to use BLT with your Tcl/Tk
+ scripts and Tcl/Tk-enabled apps.
+
+Package: unzip
+Version: 6.0-23+deb10u3~winerunner
+Architecture: amd64
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 567
+Depends: libbz2-1.0, libc6 (>= 2.14)
+Suggests: zip
+Filename: ./unzip/unzip_6.0-23+deb10u3~winerunner_amd64.deb
+Size: 172208
+MD5sum: dd389a9f284f763d01e907aaaa373f40
+SHA1: 5506b1065980c064ef7724183b03496d95a5e35f
+SHA256: a420008798912f1669879ed41329830787e39964e45be02522e2e434fb3000f0
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.info-zip.org/UnZip.html
+Description: De-archiver for .zip files
+ InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+ .
+ This version supports encryption.
+
+Package: uos-resource-manager
+Version: 1.0.15-1
+Architecture: amd64
+Maintainer: liuxin <liuxin@uniontech.com>
+Installed-Size: 15526
+Depends: libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.58.2), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), dkms, uos-resource-manager-check
+Filename: ./uos-resource-manager/uos-resource-manager_1.0.15-1_amd64.deb
+Size: 2408292
+MD5sum: 96d950f97d511b7e99857d87f0bf5537
+SHA1: e1a87ecc2b3102ae43bec87d70fdbbe9c27ad453
+SHA256: e156a0442184cca0d1ee80e499d1d4e64e5554f4cac256d3b2daeca11eb49cff
+Section: devel
+Priority: optional
+Homepage: https://gerrit.uniontech.com/admin/repos/uos-resource-manager
+Description: Resource control
+ For manufacturers that do not disclose the source code,
+ provide corresponding back-end system services and provide
+ dbus interface to manufacturers for resource management and control.
+
+Package: uos-resource-manager-check
+Source: uos-resource-manager
+Version: 1.0.15-1
+Architecture: amd64
+Maintainer: liuxin <liuxin@uniontech.com>
+Installed-Size: 10
+Filename: ./uos-resource-manager-check/uos-resource-manager-check_1.0.15-1_amd64.deb
+Size: 3396
+MD5sum: f04abf02b6864b554666c43377c3036b
+SHA1: 4419f7ca560e9a1209dc75990e60ae687e41115f
+SHA256: aa099c11a63f622532c4bf798272c7ea94f7c6c8097fdccf1004459d3e919559
+Section: devel
+Priority: optional
+Homepage: https://gerrit.uniontech.com/admin/repos/uos-resource-manager
+Description: Exception check
+ Prevent users from manually removing the resource management and control
+ kernel module resulting in unloading check errors.
+
+Package: voice-broadcast-time
+Version: 1.0.0
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 40
+Depends: python3, python3-tk, espeak
+Filename: ./voice-broadcast-time/voice-broadcast-time_1.0.0_all.deb
+Size: 2260
+MD5sum: 9849e90aad0f3afef1f9e5e09f1dc3bd
+SHA1: 4401e10197dcbf2c1d5be08afb84b1ee5eaa1e85
+SHA256: 9afe2144cae2596845372759c6956c446e15d04c2368552c32d17369e743e630
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/voice-broadcast-time
+Description: gfdgd xi make's voice broadcast time
+
+Package: voice-broadcast-time
+Version: 1.0.1
+Architecture: all
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 40
+Depends: python3, python3-tk, espeak
+Filename: ./voice-broadcast-time/voice-broadcast-time_1.0.1_all.deb
+Size: 2256
+MD5sum: 57120c5e3a16ced80be4ea1bb2e7deec
+SHA1: 8d9ff8f36a7d2b85fba76477f3d38204b5589360
+SHA256: 637843766c70c4cba9c996811649829a65713704e75d4d47e1c008c1c915978a
+Priority: optional
+Homepage: https://gitee.com/gfdgd-xi/voice-broadcast-time
+Description: gfdgd xi make's voice broadcast time
+
+Package: wimtools
+Source: wimlib (1.13.0-1)
+Version: 1.13.0-1+b1
+Architecture: amd64
+Maintainer: Hilko Bengen <bengen@debian.org>
+Installed-Size: 1538
+Depends: libc6 (>= 2.14), libwim15 (>= 1.13.0)
+Suggests: genisoimage, mtools, syslinux, cabextract
+Filename: ./wimtools/wimtools_1.13.0-1+b1_amd64.deb
+Size: 104700
+MD5sum: 94b13f5c001b52e62b345a55db5590fb
+SHA1: ab286b12e39b777de08b7aa811946de4f6e95993
+SHA256: 2444aa3f24eff361f6c4a088570caed229679a48300a9111dcfad7417d6040d8
+Section: otherosfs
+Priority: optional
+Homepage: http://wimlib.net/
+Description: Tools for manipulating Windows Imaging files
+ WIM is an archive format designed primarily for archiving Windows
+ filesystems. It features single-instancing and LZ77-based
+ compression, and is used by Microsoft to distribute and deploy
+ Windows Vista and later.
+ .
+ This package contains a free implementation of the ImageX utility
+ that is used to create WIM files on Windows.
+
